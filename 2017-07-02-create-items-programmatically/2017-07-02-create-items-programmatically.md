@@ -1,6 +1,7 @@
 ---
 categories: [it, programming]
 tags: [Android, Java]
+update: 2019-11-03
 ---
 
 # Создание элементов в Android приложении программно
@@ -38,7 +39,7 @@ Java код активности (строчку `package` не копируйт
 ```java
 package org.harrix.buttoncreatebutton;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -120,7 +121,7 @@ Java код активности (строчку `package` не копируйт
 ```java
 package org.harrix.buttoncreatebutton;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
