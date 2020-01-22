@@ -33,4 +33,4 @@ tags: [Android, Java]
 </RelativeLayout>
 ```
 
-[Итоговый результат](img/result.png)
+![Итоговый результат](img/result.png)
