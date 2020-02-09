@@ -144,7 +144,7 @@ button.setOnClickListener(new View.OnClickListener() {
 });
 ```
 
-Полный код java файла (без строчки `package`, которая у вас должна быть своей):
+Полный код Java файла (без строчки `package`, которая у вас должна быть своей):
 
 ```java
 import androidx.appcompat.app.AppCompatActivity;
