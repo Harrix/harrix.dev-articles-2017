@@ -100,6 +100,6 @@ $b = (int)$string_b;
 
 В [статье](/blog/2017/add-2-num-java-get/) рассмотрен пример web-приложения на Java, который делает тоже самое.
 
-В [статье](/blog/2017/add-2-num-android-post/) и [статье](/blog/2017/add-2-num-http-url-connection/) рассматривается пример создания клиентского приложения на Android Studio.
+В [статье](/blog/2017/add-2-num-apache-http/) и [статье](/blog/2017/add-2-num-http-url-connection/) рассматривается пример создания клиентского приложения на Android Studio.
 
 В статье [статье](/blog/2017/add-2-num-html-get/) рассматривается пример создания клиентского приложения на HTML.
