@@ -125,7 +125,15 @@ android {
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-![Добавление разрешения на использование интернета](img/android-manifest.png)
+![Добавление разрешения на использование интернета](img/android-manifest_01.png)
+
+Также добавьте следующее разрешение в `<application>`:
+
+```xml
+<uses-library android:name="org.apache.http.legacy" android:required="false"/>
+```
+
+![Добавление разрешения uses-library](img/android-manifest_02.png)
 
 ## Java код
 
