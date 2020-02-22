@@ -2,7 +2,7 @@
 categories: [it, web]
 tags: [Клиент-сервер, PHP, Сложение двух чисел]
 related-id: client-server
-demo: demo?a=2&b=3
+demo: demo
 ---
 
 # Сложение двух чисел на PHP с передачей параметров через GET (серверное приложение)
