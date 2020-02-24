@@ -143,7 +143,7 @@ cd C:\Users\User\Desktop\testapp
 javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 ```
 
-В папке `[папка]\com\example\` должен появится файл `TestServlet.class`.
+В папке `[папка]\com\example\` должен появиться файл `TestServlet.class`.
 
 В папке Tomcat (у меня это `C:\Program Files\Apache Software Foundation\Tomcat 9.0`) переходим в папку `webapps`.
 
