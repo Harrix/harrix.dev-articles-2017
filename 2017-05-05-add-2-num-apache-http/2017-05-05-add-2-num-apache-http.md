@@ -208,7 +208,7 @@ class MyAsyncTask extends AsyncTask<String, String, String> {
 
     @Override
     protected String doInBackground(String... params) {
-        //Тут будет запрос к серверу
+        // Тут будет запрос к серверу
         return null;
     }
 
