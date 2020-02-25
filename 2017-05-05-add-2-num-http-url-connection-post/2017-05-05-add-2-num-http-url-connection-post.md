@@ -1,7 +1,7 @@
 ---
 categories: [it, web]
 tags: [Клиент-сервер, Java, Android, Сложение двух чисел]
-update: 2020-02-23
+update: 2020-02-26
 related-id: client-server
 ---
 
