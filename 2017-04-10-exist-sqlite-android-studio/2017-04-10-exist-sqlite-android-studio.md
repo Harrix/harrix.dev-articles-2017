@@ -1,6 +1,6 @@
 ---
 categories: [it, programming]
-tags: [Android, Android Studio, Java, SQLite, База данных, SQL]
+tags: [Android, Android Studio, Java, SQLite, Базы данных, SQL]
 update: 2020-01-20
 ---
 
