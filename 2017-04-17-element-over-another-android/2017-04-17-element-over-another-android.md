@@ -1,6 +1,6 @@
 ---
 categories: [it, programming]
-tags: [Android, Java]
+tags: [Android, Android Studio, Java]
 ---
 
 # Разместить один элемент над другим в Android разметке
