@@ -1,6 +1,6 @@
 ---
 categories: [it, web]
-tags: [Клиент-сервер, Java, Android, Сложение двух чисел]
+tags: [Клиент-сервер, Java, Android, Android Studio, Сложение двух чисел]
 update: 2020-02-22
 related-id: client-server
 ---
