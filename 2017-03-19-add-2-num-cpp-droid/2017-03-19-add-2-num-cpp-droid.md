@@ -31,7 +31,7 @@ using namespace std;
 int main(){
 
 return 0;
-}:
+}
 ```
 
 ![Код болванки](img/code_01.png)
