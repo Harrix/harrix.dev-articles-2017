@@ -1,6 +1,6 @@
 ---
 categories: [it, programming]
-tags: [Android, Java]
+tags: [Android, Android Studio, Java]
 update: 2020-01-22
 ---
 
