@@ -3,478 +3,219 @@ categories: [it, programming]
 tags: [Java]
 ---
 
-# Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java
+# Кратко об аннотациях в Java
 
-Что делать, если нужно вызвать метод объекта, о котором мы почти ничего не знаем: ни название, ни его методы (на самом деле знаем, но об этом ниже).
+Что такое аннотация в Java? Давайте глянем.
 
-## Постановка задачи
+## Как аннотации выглядят
 
-Есть некоторый класс какой-нибудь библиотеки, который мы сейчас проектируем, `LibraryClass` с методом `doIt`, который принимает произвольный объект:
-
-```java
-class LibraryClass {
-    void doIt(Object object) {
-
-    }
-}
-```
-
-Мы знаем, что у принимаемого объекта **возможно** есть какой-то нужный нам метод, который возвращает строку `String`. Имя метода мы **не знаем.**
-
-Точнее мы не знаем это на этапе разработки нашей библиотеки. А на этапе разработки передаваемого класса мы это знать будем.
-
-Нам нужно вызывать этот метод, вытащить оттуда возвращаемую строчку и вывести на экран:
-
-```java
-class LibraryClass {
-    void doIt(Object object) {
-        String s = "";
-        // Вызвать как-то метод и закинуть значение в s
-        System.out.println(s);
-    }
-}
-```
-
-## Варианты неверных решений
-
-Прошу обратить внимание на то, что это решения неверные строго с точки зрения поставленной задачи. Если на практике возникнет подобная (не такая же) задача, то лучше попробовать какое-нибудь из «неверных» решений.
-
-Мы могли бы обязать передавать объект в `doIt` только как наследника абстрактного класса с нужным нам методом:
-
-```java
-abstract class Parent {
-    abstract String method();
-}
-
-class LibraryClass {
-    void doIt(Parent object) {
-        String s = "";
-        s = object.method();
-        System.out.println(s);
-    }
-}
-
-class Child extends Parent {
-    @Override
-    String method() {
-        return "Bla";
-    }
-}
-
-LibraryClass library = new LibraryClass();
-library.doIt(new Child());
-```
-
-Или через интерфейс:
-
-```java
-interface Parent {
-    String method();
-}
-```
-
-```java
-class LibraryClass {
-    void doIt(Parent object) {
-        String s = "";
-        s = object.method();
-        System.out.println(s);
-    }
-}
-
-class Child implements Parent {
-    @Override
-    public String method() {
-        return "Bla";
-    }
-}
-
-LibraryClass library = new LibraryClass();
-library.doIt(new Child());
-```
-
-Или даже через указание имени метода:
-
-```java
-class LibraryClass {
-    void doIt(Object object) {
-        String s = "";
-
-        Class classObject = object.getClass();
-
-        for (Method method : classObject.getDeclaredMethods()) {
-            String nameMethod = method.getName();
-
-            if (nameMethod.equals("method")) {
-                try {
-                    s = (String) method.invoke(object);
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                } catch (InvocationTargetException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-        System.out.println(s);
-    }
-}
-
-class Child {
-    String method() {
-        return "Bla";
-    }
-}
-
-LibraryClass library = new LibraryClass();
-library.doIt(new Child());
-```
-
-Но все эти способы подразумевают, что мы **знаем**, как называется метод, который нам нужен: либо заставляя нужный метод реализовать, либо перебирая все методы в поисках нужного имени. Но по условии задачи мы это **не знаем.**
-
-То есть все эти способы не подойдут. Кстати, последний пример содержит много кода, который мы использует в решении с аннотацией.
-
-## Идея решения
-
-А давайте мы в классе, объект которого будем передавать библиотеке, метод, возвращающий нужную нам строку, просто пометим. Эту метку и будет искать библиотечный класс для вызова метода.
-
-## Решение
-
-Создадим аннотацию `NeedMethod` (имя взято произвольно), которая будет представлять собой метку. Причем аннотация будет являться частью библиотеки:
+Вот так, например, выглядит аннотация:
 
 ```java
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface NeedMethod {
+    int type() default 1;
 }
 ```
 
-`@Target(ElementType.METHOD)` — означает, что метка будет действовать на метод.
+**Внимание!** Аннотации начинаются со знака `@`. Так что при написании аннотации выше мы использовали еще две существующие аннотации (там `1+2=3` знака `@`).
 
-`@Retention(RetentionPolicy.RUNTIME)` — означает, что метка будет работать и при выполнении программы. Без этой строчки наш способ работать не будет — можете проверить.
+## Ссылки
 
-Теперь библиотечный класс пропишем такой:
+Более подробно про аннотации можно прочитать тут:
+
+[https://ru.wikipedia.org/wiki/Аннотация_(Java)](https://ru.wikipedia.org/wiki/Аннотация_(Java))
+
+<http://www.seostella.com/ru/article/2012/05/19/annotacii-v-java-vvedenie.html>
+
+<http://www.quizful.net/post/annotations-in-java>
+
+<https://mkyong.com/java/java-custom-annotations-example/>
+
+<https://dzone.com/articles/how-annotations-work-java>
+
+## Для чего нужны аннотации
+
+Аннотации позволяют в коде расставить те или иные смысловые метки в коде, которые что-то говорят либо компилятору, либо редактору, либо виртуальной машине. Аннотация как бы говорит: «Если есть такая метка, то тут должно быть вот так».
+
+Также часто аннотации используются в различных библиотеках (например, в [Retrofit](https://square.github.io/retrofit/)). И расставляя по шаблонам из документации аннотации в своих классах, мы говорим библиотеке, какие методы и классы нужно брать для взаимодействия.
+
+В общем, с помощью них можно отслеживать правильность кода, его анализировать и др.
+
+## Существующие аннотации
+
+Аннотации бывают существующими, или вы можете сами их создавать.
+
+Например, одну аннотацию вы видели очень часто. Это `@Override`.
+
+Допустим у вас есть код:
 
 ```java
-class LibraryClass {
-    void doIt(Object object) {
-        String s = "";
-
-        Class classObject = object.getClass();
-
-        for (Method method : classObject.getDeclaredMethods()) {
-            NeedMethod annotation = (NeedMethod) method.getAnnotation(NeedMethod.class);
-
-            if (annotation != null) {
-                try {
-                    s = (String) method.invoke(object);
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                } catch (InvocationTargetException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-        System.out.println(s);
+class Parent {
+    void method() {
+        System.out.println("Base");
     }
 }
-```
 
-Разберем его.
-
-Java, в отличии от того же C++ (на самом деле что-то можно и в C++, но в ограниченном виде), позволяет узнавать информацию о классе объекта: имя, его методы и так далее. И мы из присылаемого объекта достаем информацию о классе:
-
-```java
-Class classObject = object.getClass();
-```
-
-Теперь мы можем в цикле пробежаться по всем методам класса (наследуемые методы не учитываются):
-
-```java
-for (Method method : classObject.getDeclaredMethods()) {
-}
-```
-
-Теперь у каждого метода попытаемся вытащить аннотацию и привести её к типу нашей аннотации `NeedMethod`:
-
-```java
-NeedMethod annotation = (NeedMethod) method.getAnnotation(NeedMethod.class);
-```
-
-Если нужной отметки нет, то `annotation` будет приравнен к `null`. Что и используем:
-
-```java
-NeedMethod annotation = (NeedMethod) method.getAnnotation(NeedMethod.class);
-
-if (annotation != null) {
-
-}
-```
-
-Теперь внутри этого условия переменная `method` содержит нужный нам метод. И нам нужно его вызвать. Это можно сделать через `invoke`, указывая кто вызывает этот метод:
-
-```java
-s = (String) method.invoke(object);
-```
-
-Обратите внимание на интересное поведение. В обычных случаях мы у объекта вызываем метод, а тут, наоборот, методу говорим, кто его будет вызывать.
-
-Так как не факт, что метод нашелся (это мы знаем, но Java не знает), то обрамляем вызов метода в `try catch`:
-
-```java
-Class classObject = object.getClass();
-
-for (Method method : classObject.getDeclaredMethods()) {
-    NeedMethod annotation = (NeedMethod) method.getAnnotation(NeedMethod.class);
-
-    if (annotation != null) {
-
-        try {
-            s = (String) method.invoke(object);
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        }
-
+class Child extends Parent {
+    void method() {
+        System.out.println("Child");
     }
 }
+
+Child a = new Child();
+a.method();
 ```
 
-## Использование библиотеки
+Это работающий код, который спокойно компилируется. И можно ничего не делать. Но вдруг вы в названии метода `method()` в `Child` ошибетесь? Назовете его, например, `methoad()`. Компилятор спокойно всё скомпилирует и не подавится. Хотя мы хотели переопределить метод.
 
-Класс библиотеки с аннотацией написаны. Теперь можем проверить в деле.
-
-Создадим класс, например, `WorkClass`:
+А что будет, если добавим аннотацию `@Override`. На первый взгляд ничего не изменится:
 
 ```java
-class WorkClass {
-    String write() {
-        return "text";
+class Parent {
+    void method() {
+        System.out.println("Base");
     }
+}
 
-    String writeOther() {
-        return "bla";
+class Child extends Parent {
+    @Override
+    void method() {
+        System.out.println("Child");
     }
+}
+
+Child a = new Child();
+a.method();
+```
+
+Всё компилируется, как и раньше. Но сейчас код с `methoad()` выдаст ошибку. Тогда как без `@Override` всё компилировалось бы:
+
+![Ошибка переопределения метода не из родительского класса](img/error_01.png)
+
+![Ошибка переопределения метода не из родительского класса](img/error_02.png)
+
+То есть с аннотацией мы обезопасили свой код от некоторых ошибок программиста.
+
+## Новые аннотации
+
+Аннотации можно также писать самому.
+
+Создадим, например, аннотацию `Animal` к классу, которая содержит параметр `massa` с стандартным значением `3`:
+
+```java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Animal {
+    int massa() default 3;
 }
 ```
 
-Создадим экземпляр нашего класса `WorkClass`, библиотечного класса `LibraryClass` и вызовем метод `doIt`:
+Тут для создания аннотации используются две существующие аннотации в Java.
+
+`@Target(ElementType.TYPE)` — означает, аннотация применяется к классу.
+
+`@Retention(RetentionPolicy.RUNTIME)` — означает, что аннотация действует и при работе программы.
+
+Обратите внимание на то, что параметр аннотации massa не имеет никакого отношения к полям классов, которые будут иметь эту аннотацию.
+
+Создадим класс `Cat`, который будет прописан с аннотацией. Обратите внимание, что аннотация применяется не к объекту класса, а к самому классу. И также создадим экземпляр:
 
 ```java
-WorkClass workObject = new WorkClass();
-LibraryClass library = new LibraryClass();
-library.doIt(workObject);
+@Animal()
+class Cat {
+}
+
+Cat a = new Cat();
 ```
 
-И в консоли ничего не появилось. Что правильно.
+Теперь мы можем вытащить аннотацию из класса и вывести значения `massa` у аннотации:
 
-Поставим отметку, то есть аннотацию `@NeedMethod`, около метода `write`:
+```java
+Class cl = a.getClass();
+Animal an = (Animal)cl.getAnnotation(Animal.class);
+
+System.out.println(an.massa());
+```
+
+Полный код консольного приложения:
 
 ```java
 package com.example;
 
 import java.lang.annotation.*;
-import java.lang.reflect.*;
 
 public class Main {
 
-    @Target(ElementType.METHOD)
+    @Target(ElementType.TYPE)
     @Retention(RetentionPolicy.RUNTIME)
-    public @interface NeedMethod {
+    public @interface Animal {
+        int massa() default 3;
     }
 
     public static void main(String[] args) {
 
-        class WorkClass {
-            @NeedMethod
-            String write() {
-                return "text";
-            }
-
-            String writeOther() {
-                return "bla";
-            }
+        @Animal()
+        class Cat {
         }
 
-        class LibraryClass {
-            void doIt(Object object) {
-                String s = "";
+        Cat a = new Cat();
 
-                Class classObject = object.getClass();
+        Class cl = a.getClass();
+        Animal an = (Animal)cl.getAnnotation(Animal.class);
 
-                for (Method method : classObject.getDeclaredMethods()) {
-                    NeedMethod annotation = (NeedMethod) method.getAnnotation(NeedMethod.class);
-
-                    if (annotation != null) {
-
-                        try {
-                            s = (String) method.invoke(object);
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
-                        } catch (InvocationTargetException e) {
-                            e.printStackTrace();
-                        }
-
-                    }
-                }
-
-                System.out.println(s);
-            }
-        }
-
-        WorkClass workObject = new WorkClass();
-        LibraryClass library = new LibraryClass();
-        library.doIt(workObject);
+        System.out.println(an.massa());
     }
 }
 ```
 
-Вот теперь на экране высветится `text`:
+При выполнении программы должно вывестись `3`.
 
-![Результат выполнения программы](img/result_01.png)
-
-Поставим отметку около метода `writeOther`, и высветится `bla`:
+Можем у класса значение параметра аннотации и поменять. Например, у собаки в коде ниже значение будет `4`:
 
 ```java
 package com.example;
 
 import java.lang.annotation.*;
-import java.lang.reflect.*;
 
 public class Main {
 
-    @Target(ElementType.METHOD)
+    @Target(ElementType.TYPE)
     @Retention(RetentionPolicy.RUNTIME)
-    public @interface NeedMethod {
+    public @interface Animal {
+        int massa() default 3;
     }
 
     public static void main(String[] args) {
 
-        class WorkClass {
-            String write() {
-                return "text";
-            }
-
-            @NeedMethod
-            String writeOther() {
-                return "bla";
-            }
+        @Animal()
+        class Cat {
         }
 
-        class LibraryClass {
-            void doIt(Object object) {
-                String s = "";
+        Cat a = new Cat();
 
-                Class classObject = object.getClass();
+        Class cl = a.getClass();
+        Animal an = (Animal)cl.getAnnotation(Animal.class);
 
-                for (Method method : classObject.getDeclaredMethods()) {
-                    NeedMethod annotation = (NeedMethod) method.getAnnotation(NeedMethod.class);
+        System.out.println(an.massa());
 
-                    if (annotation != null) {
-                        try {
-                            s = (String) method.invoke(object);
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
-                        } catch (InvocationTargetException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
+        //-------------------
 
-                System.out.println(s);
-            }
+        @Animal(massa = 5)
+        class Dog {
         }
 
-        WorkClass workObject = new WorkClass();
-        LibraryClass library = new LibraryClass();
-        library.doIt(workObject);
+        Dog b = new Dog();
+
+        Class clb = b.getClass();
+        Animal anb = (Animal)cl.getAnnotation(Animal.class);
+
+        System.out.println(anb.massa());
     }
 }
 ```
 
-![Результат выполнения программы](img/result_02.png)
+В общем, примеры создания собственных аннотаций и их использования показал. Но вот только скорее всего возникнет вопрос: а зачем оно нужно?
 
-## Дополнение
-
-Усложненный пример. Можно не читать.
-
-В примере ниже я в метку ввел параметр `type`, который по умолчанию равен `1`. А в библиотечном классе поставил проверку, что нам нужен метод со значением параметра равным `2` (просто для демонстрации). Ввел также второй класс, в котором метку поставил со значением `2`. В итоге, в первом классе метка не сработает, так как значение в метке равно `1`, а во втором классе сработает:
-
-```java
-package com.example;
-
-import java.lang.annotation.*;
-import java.lang.reflect.*;
-
-public class Main {
-
-    @Target(ElementType.METHOD)
-    @Retention(RetentionPolicy.RUNTIME)
-    public @interface NeedMethod {
-        int type() default 1;
-    }
-
-    public static void main(String[] args) {
-
-        class WorkClass {
-            String write() {
-                return "text";
-            }
-
-            @NeedMethod
-            String writeOther() {
-                return "bla";
-            }
-        }
-
-        class WorkClassTwo {
-            String write() {
-                return "TEXT";
-            }
-
-            @NeedMethod (type = 2)
-            String writeOther() {
-                return "BLA";
-            }
-        }
-
-        class LibraryClass {
-            void doIt(Object object) {
-                String s = "";
-
-                Class classObject = object.getClass();
-
-                for (Method method : classObject.getDeclaredMethods()) {
-                    NeedMethod annotation = (NeedMethod) method.getAnnotation(NeedMethod.class);
-
-                    if ((annotation != null) && (annotation.type() == 2)) {
-                        try {
-                            s = (String) method.invoke(object);
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
-                        } catch (InvocationTargetException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-
-                System.out.println(s);
-            }
-        }
-
-        WorkClass workObject = new WorkClass();
-        WorkClassTwo workObjectTwo = new WorkClassTwo();
-        LibraryClass library = new LibraryClass();
-        library.doIt(workObject);
-        library.doIt(workObjectTwo);
-    }
-}
-```
-
-![Результат выполнения программы](img/result_03.png)
-
-Вот и всё, что хотел рассказать.
-
-P.S. Жаль, что нельзя аннотацию прикреплять к методу динамически, а не в коде, как мы делали.
+В статье [Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java](/blog/2017/method-call-java-annotation/) показан пример использования аннотаций более приближенного к практике.
