@@ -11,7 +11,9 @@ if (!$isEmpty) {
 
   $c = $a + $b;
 
-  echo $c;
+  // Формируем JSON ответ от сервера
+  $arr = array('a' => $a, 'b' => $b, 'c' => $c);
+  echo json_encode($arr);
 }
 else {
   echo "error";
