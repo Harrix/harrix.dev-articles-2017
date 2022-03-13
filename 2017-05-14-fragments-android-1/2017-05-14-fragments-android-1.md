@@ -11,15 +11,15 @@ related-id: fragments
 
 Все статьи цикла «Взаимодействие между фрагментами и активностью в Android Studio»:
 
-* [Часть 1. Подготовка](/blog/2017/fragments-android-1/)
-* [Часть 2. Простые способы](/blog/2017/fragments-android-2/)
-* [Часть 3. Через интерфейсы](/blog/2017/fragments-android-3/)
-* [Часть 4. Через намерения](/blog/2017/fragments-android-4/)
-* [Часть 5. Несколько фрагментов](/blog/2017/fragments-android-5/)
+* [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-1/2017-05-14-fragments-android-1.md)
+* [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-2/2017-05-14-fragments-android-2.md)
+* [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-3/2017-05-14-fragments-android-3.md)
+* [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-4/2017-05-14-fragments-android-4.md)
+* [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-5/2017-05-14-fragments-android-5.md)
 
 ## Создание проекта
 
-В статье [Болванка приложения на Android Studio](/blog/2020/empty-project-android/) рассказывается, как создать болванку приложения для нашей программы.
+В статье [Болванка приложения на Android Studio](https://github.com/Harrix/harrix.dev-blog-2020/blob/main/2020-05-06-empty-project-android/2020-05-06-empty-project-android.md) рассказывается, как создать болванку приложения для нашей программы.
 
 ## Предварительная работа с главной активностью
 
@@ -725,4 +725,4 @@ public class Fragment3 extends Fragment {
 }
 ```
 
-Следующая часть [Часть 2. Простые способы](/blog/2017/fragments-android-2/).
+Следующая часть [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-2/2017-05-14-fragments-android-2.md).

@@ -11,7 +11,7 @@ tags: [C++, Visual Studio]
 
 Подготовьте приложение с готовой формой.
 
-Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Visual Studio 2017](/blog/2017/add-2-num-vs-2017-clr/), [Visual Studio 2015](/blog/2016/add-2-num-vs-2015-clr/), [Visual Studio 2010](/blog/2016/add-2-num-vs-2010-clr/):
+Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Visual Studio 2017](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-04-14-add-2-num-vs-2017-clr/2017-04-14-add-2-num-vs-2017-clr.md), [Visual Studio 2015](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/2016-03-06-add-2-num-vs-2015-clr/2016-03-06-add-2-num-vs-2015-clr.md), [Visual Studio 2010](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/2016-05-28-add-2-num-vs-2010-clr/2016-05-28-add-2-num-vs-2010-clr.md):
 
 ![Форма приложения](img/new-form.png)
 

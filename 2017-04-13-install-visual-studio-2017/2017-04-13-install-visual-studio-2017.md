@@ -8,7 +8,7 @@ update: 2019-07-14
 
 В статье приведена инструкция по установке бесплатной версии Visual Studio 2017 Community на Windows 10 для программирования на C++. По сравнению с версией 2015 процесс установки сильно изменился.
 
-Так как уже вышла [Visual Studio 2019](/blog/2021/install-visual-studio-2019/), то Visual Studio 2017 нужно искать на странице со старыми релизами.
+Так как уже вышла [Visual Studio 2019](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-09-install-visual-studio-2019/2021-08-09-install-visual-studio-2019.md), то Visual Studio 2017 нужно искать на странице со старыми релизами.
 
 Переходим на адрес загрузки предыдущих версий `Visual Studio`: <https://visualstudio.microsoft.com/ru/vs/older-downloads/>.
 
@@ -68,11 +68,11 @@ update: 2019-07-14
 
 Можете попробовать создать простое консольное приложение по уроку:
 
-[Сложение двух чисел в Visual Studio 2013 (консольное Win32 приложение)](/blog/2015/add-2-numbers-vs-2013-console/)
+[Сложение двух чисел в Visual Studio 2013 (консольное Win32 приложение)](https://github.com/Harrix/harrix.dev-blog-2015/tree/main/2015-02-08-add-2-num-vs-2013-console)
 
 А в этой статье говорится как сложить два числа в оконном приложении:
 
-[Сложение двух чисел в Visual Studio 2017 на C++ (CLR приложение)](/blog/2017/add-2-numbers-vs-2017-clr)
+[Сложение двух чисел в Visual Studio 2017 на C++ (CLR приложение)](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-04-14-add-2-num-vs-2017-clr/2017-04-14-add-2-num-vs-2017-clr.md)
 
 Если вы хотите разрабатывать универсальные UWP приложения, то не забудьте включить режим `Режим разработчика` в параметрах Windows 10:
 

@@ -9,27 +9,27 @@ related-id: client-server
 
 Напишем приложение сложение двух чисел, где сложение двух чисел происходит на стороне сервера.
 
-В статье [Сложение двух чисел в Android Studio с использованием Apache HTTP (клиент-серверное приложение)](/blog/2017/add-2-num-apache-http/) приведен вариант с использованием [устаревших](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client) классов. В данной статье используются классы, пришедшие на замену.
+В статье [Сложение двух чисел в Android Studio с использованием Apache HTTP (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-apache-http/2017-05-05-add-2-num-apache-http.md) приведен вариант с использованием [устаревших](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client) классов. В данной статье используются классы, пришедшие на замену.
 
-В [статье](/blog/2017/add-2-num-http-url-connection-post/) показан вариант приложения для отправки POST параметров.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-http-url-connection-post/2017-05-05-add-2-num-http-url-connection-post.md) показан вариант приложения для отправки POST параметров.
 
 ## Постановка задачи
 
-В [статье](/blog/2019/add-2-num-android/) показан пример приложения под Android по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2019/blob/main/2019-07-23-add-2-num-android/2019-07-23-add-2-num-android.md) показан пример приложения под Android по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле.
 
-В статье буду использовать PHP скрипт, который я расположил по адресу <https://harrix.dev/blog/2017/add-2-num-php-get/demo/> (если перейти по ссылке без параметров, то должно выдаваться `error`).
+В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/2017-05-04-add-2-num-php-get/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
-Пример запроса к серверу <https://harrix.dev/blog/2017/add-2-num-php-get/demo?a=2&b=3> (а вот тут должно появиться число `5`).
+Пример запроса к серверу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/2017-05-04-add-2-num-php-get/demo?a=2&b=3> (а вот тут должно появиться число `5`).
 
 ## Серверная часть
 
 У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
 
-В [статье](/blog/2017/add-2-num-java-get/) приведен пример серверной части на Java.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-04-add-2-num-java-get/2017-05-04-add-2-num-java-get.md) приведен пример серверной части на Java.
 
-В [статье](/blog/2017/add-2-num-php-get/) приведен пример серверной части на PHP.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-04-add-2-num-php-get/2017-05-04-add-2-num-php-get.md) приведен пример серверной части на PHP.
 
-В статье буду использовать PHP скрипт, который я расположил по адресу <https://harrix.dev/blog/2017/add-2-num-php-get/demo/> (если перейти по ссылке без параметров, то должно выдаваться `error`).
+В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/2017-05-04-add-2-num-php-get/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
 ## Создание Android проекта
 
