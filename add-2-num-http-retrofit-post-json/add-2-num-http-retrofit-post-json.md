@@ -10,7 +10,7 @@ related-id: client-server
 
 Напишем приложение сложение двух чисел, где сложение двух чисел происходит на стороне сервера.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-http-url-connection-post/2017-05-05-add-2-num-http-url-connection-post.md) приведен вариант, где сервер выдает одно число и всё. Чаще всего же сервера в виде текстовых файлов отдают либо HTML, либо XML, либо JSON, то есть структурированную информацию. В таких случаях часто используют библиотеку [Retrofit](https://square.github.io/retrofit/).
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md) приведен вариант, где сервер выдает одно число и всё. Чаще всего же сервера в виде текстовых файлов отдают либо HTML, либо XML, либо JSON, то есть структурированную информацию. В таких случаях часто используют библиотеку [Retrofit](https://square.github.io/retrofit/).
 
 ## Постановка задачи
 
@@ -21,22 +21,22 @@ related-id: client-server
 Если мы передадим через POST параметры `a=2`, `b=3`, то сервер выдаст ответ:
 
 ```json
-{"a":2,"b":3,"c":5}
+{ "a": 2, "b": 3, "c": 5 }
 ```
 
 ## Серверная часть
 
 У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-07-add-2-num-php-post-json/2017-05-07-add-2-num-php-post-json.md) приведен пример серверной части на PHP.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-post-json/add-2-num-php-post-json.md) приведен пример серверной части на PHP.
 
 В статье буду использовать PHP скрипт, который я расположил по адресу (если перейти по ссылке без POST параметров, то должно выдаваться `error`):
 
-<https://github.com/Harrix/harrix.dev-blog-2017/tree/main/2017-05-07-add-2-num-php-post-json/demo>.
+<https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-post-json/demo>.
 
 ## Создание Android проекта
 
-В статье [Болванка приложения на Android Studio](https://github.com/Harrix/harrix.dev-blog-2020/blob/main/2020-05-06-empty-project-android/2020-05-06-empty-project-android.md) рассказывается, как создать болванку приложения.
+В статье [Болванка приложения на Android Studio](https://github.com/Harrix/harrix.dev-blog-2020/blob/main/empty-project-android/empty-project-android.md) рассказывается, как создать болванку приложения.
 
 ## XML разметка
 
@@ -104,11 +104,11 @@ public @interface NeedMethod {
 }
 ```
 
-[Кратко об аннотациях в Java](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-08-java-annotation/2017-05-08-java-annotation.md)
+[Кратко об аннотациях в Java](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/java-annotation/java-annotation.md)
 
 А тут показан пример использования аннотаций для решения одной из задач, по которой, надеюсь, аннотации станут понятнее.
 
-[Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-08-method-call-java-annotation/2017-05-08-method-call-java-annotation.md)
+[Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/method-call-java-annotation/method-call-java-annotation.md)
 
 ## Подключение зависимостей
 
@@ -198,7 +198,7 @@ public interface Request {
 
 Нужно поменять строчку с `Call`. Здесь мы прописываем шаблон метода, который будем отправлять данные на сервер и получать ответ от него.
 
-Как и в предыдущих статьях ([эта](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-apache-http-post/2017-05-05-add-2-num-apache-http-post.md) и [эта](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-http-url-connection-post/2017-05-05-add-2-num-http-url-connection-post.md)) набор отправляемых параметров будем передавать в виде словаря `HashMap`.
+Как и в предыдущих статьях ([эта](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-apache-http-post/add-2-num-apache-http-post.md) и [эта](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md)) набор отправляемых параметров будем передавать в виде словаря `HashMap`.
 
 Также по аналогии с прошлыми статьями метод, который отправляет запрос и получает ответ, назовем `performPostCall`.
 
@@ -212,7 +212,7 @@ Call<Object> performPostCall(@FieldMap HashMap<String, String> postDataParams);
 
 И поменяем путь к скрипту на сервере, который считает сумму наших чисел. Это прописано в аннотации `@POST`.
 
-Выше я говорил, что PHP скрипт я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/2017-05-07-add-2-num-php-post-json/demo>. Получается, что сервер находится по адресу `https://harrix.dev`, а скрипт на этом сервере находится по строчке `/blog/2017/add-2-num-php-post-json/demo/`. Вот этот путь и записываем в `@POST`. Адрес сервера не указываем!
+Выше я говорил, что PHP скрипт я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-post-json/demo>. Получается, что сервер находится по адресу `https://harrix.dev`, а скрипт на этом сервере находится по строчке `/blog/2017/add-2-num-php-post-json/demo/`. Вот этот путь и записываем в `@POST`. Адрес сервера не указываем!
 
 В итоге я получил вот такой интерфейс:
 

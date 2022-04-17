@@ -12,13 +12,13 @@ related-id: fragments
 
 Все статьи цикла «Взаимодействие между фрагментами и активностью в Android Studio»:
 
-* [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-1/2017-05-14-fragments-android-1.md)
-* [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-2/2017-05-14-fragments-android-2.md)
-* [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-3/2017-05-14-fragments-android-3.md)
-* [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-4/2017-05-14-fragments-android-4.md)
-* [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-5/2017-05-14-fragments-android-5.md)
+- [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md)
+- [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-2/fragments-android-2.md)
+- [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-3/fragments-android-3.md)
+- [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md)
+- [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-5/fragments-android-5.md)
 
-Предыдущая часть [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-2/2017-05-14-fragments-android-2.md).
+Предыдущая часть [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-2/fragments-android-2.md).
 
 ## Критика
 
@@ -32,7 +32,7 @@ related-id: fragments
 
 **Задача.** При нажатии на кнопку `buttonFragment1` в фрагменте текст из `editTextFragment1` фрагмента должен отобразится в поле `textView` активности.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-1/2017-05-14-fragments-android-1.md), про которую я говорил.
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md), про которую я говорил.
 
 **Решение.** Будем использовать подход с использованием интерфейсов-слушателей. Его [рекомендует](https://developer.android.com/guide/components/fragments.html#CommunicatingWithActivity) сам Google.
 
@@ -265,7 +265,7 @@ public class Fragment1 extends Fragment {
 
 **Задача.** При нажатии на кнопку `button` в главной активности текст из `editText` главной активности должен отобразится в поле `textViewFragment1` фрагмента.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-1/2017-05-14-fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
 
 **Решение.** Применим тот же подход с интерфейсами, только наоборот. Мы теперь в активности поместим интерфейс, например, с именем `OnActivityDataListener` и создадим его экземпляр:
 
@@ -468,7 +468,7 @@ public class Fragment1 extends Fragment implements MainActivity.OnActivityDataLi
 
 **Задача.** При нажатии на кнопку `button` в активности текст из `editTextFragment1` фрагмента должен отобразится в поле `textView` активности.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-1/2017-05-14-fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
 
 **Решение.** Тут ситуация посложнее. Нужно вначале в кнопке активности `button` отправить сигнал в фрагмент, что активность что-то хочет от фрагмента. Фрагмент в ответ считывает текст из `editTextFragment1` и отправляет свой сигнал в активность, которая при приеме выводит полученный текст в `textView`. То есть в нашем случае и у активности, и у фрагмента появятся интерфейсы.
 
@@ -844,4 +844,4 @@ public class Fragment1 extends Fragment implements OnActivityDataListener {
 
 Как видите, писать приходится гораздо больше, чем в вариантах из предыдущей статьи, но зато теперь активности и фрагменты представляют собой самостоятельные единицы, которые могут существовать друг без друга и могут быть заменены другими.
 
-Следующая часть [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-14-fragments-android-4/2017-05-14-fragments-android-4.md).
+Следующая часть [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md).

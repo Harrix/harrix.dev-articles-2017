@@ -12,9 +12,9 @@ demo: demo
 
 ## Постановка задачи
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/2015-07-14-add-2-num-js/2015-07-14-add-2-num-js.md) показан пример приложения на HTML + JavaScript по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. Серверной части там нет.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/add-2-num-js/add-2-num-js.md) показан пример приложения на HTML + JavaScript по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. Серверной части там нет.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/2015-07-14-add-2-num-php/2015-07-14-add-2-num-php.md) показа пример приложения, где клиентская и серверная часть объединены в одном PHP скрипте.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/add-2-num-php/add-2-num-php.md) показа пример приложения, где клиентская и серверная часть объединены в одном PHP скрипте.
 
 А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле. То есть у нас клиентская и серверная часть разделены между собой.
 
@@ -28,13 +28,13 @@ https://[путь с скрипту]?a=2&b=3
 
 У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-04-add-2-num-java-get/2017-05-04-add-2-num-java-get.md) приведен пример серверной части на Java.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) приведен пример серверной части на Java.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-04-add-2-num-php-get/2017-05-04-add-2-num-php-get.md) приведен пример серверной части на PHP.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) приведен пример серверной части на PHP.
 
-В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/2017-05-04-add-2-num-php-get/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
+В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-get/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
-Пример запроса к серверу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/2017-05-04-add-2-num-php-get/demo?a=2&b=3> (а вот тут должно появиться число `5`).
+Пример запроса к серверу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-get/demo?a=2&b=3> (а вот тут должно появиться число `5`).
 
 ## Создание болванки
 
@@ -47,12 +47,11 @@ https://[путь с скрипту]?a=2&b=3
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Программа сложения двух чисел</title>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
 ```
 
@@ -64,8 +63,8 @@ https://[путь с скрипту]?a=2&b=3
 
 ```html
 <form>
-    <input name="a" type="text" value="2"><br>
-    <input name="b" type="text" value="3"><br>
+  <input name="a" type="text" value="2" /><br />
+  <input name="b" type="text" value="3" /><br />
 </form>
 ```
 
@@ -74,13 +73,13 @@ https://[путь с скрипту]?a=2&b=3
 Нам нужна кнопка для вычислений. Обычно на форме используется `input` тэг с `type=submit`:
 
 ```html
-<input type="submit" value="Сложить 2 два числа">
+<input type="submit" value="Сложить 2 два числа" />
 ```
 
 У нас сложение двух чисел будет происходить не на стороне клиента, а на стороне сервера. Поэтому форме нужно указать адрес сервера, куда мы отправим запрос:
 
 ```html
-<form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get">
+<form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get"></form>
 ```
 
 Общий документ будет иметь вид:
@@ -88,22 +87,20 @@ https://[путь с скрипту]?a=2&b=3
 ```html
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Программа сложения двух чисел</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Программа сложения двух чисел</title>
-</head>
-
-<body>
-  <form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get">
-    <input name="a" type="text" value="2"><br>
-    <input name="b" type="text" value="3"><br>
-    <input type="submit" value="Сложить 2 два числа">
-  </form>
-</body>
-
+  <body>
+    <form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get">
+      <input name="a" type="text" value="2" /><br />
+      <input name="b" type="text" value="3" /><br />
+      <input type="submit" value="Сложить 2 два числа" />
+    </form>
+  </body>
 </html>
 ```
 

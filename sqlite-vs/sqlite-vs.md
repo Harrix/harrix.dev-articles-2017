@@ -10,7 +10,7 @@ tags: [C++, Visual Studio]
 
 ## Создание базы данных
 
-По [этой](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/2016-03-22-db-browser-for-sqlite/2016-03-22-db-browser-for-sqlite.md) статье создайте файл базы данных `test.db` с одной таблицей `students`:
+По [этой](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/db-browser-for-sqlite/db-browser-for-sqlite.md) статье создайте файл базы данных `test.db` с одной таблицей `students`:
 
 ![Поля таблицы students](img/database_01.png)
 
@@ -31,7 +31,7 @@ INSERT INTO `students` VALUES (3,'Костя',19);
 
 ## Создание болванки приложения
 
-Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Visual Studio 2017](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-04-14-add-2-num-vs-2017-clr/2017-04-14-add-2-num-vs-2017-clr.md), [Visual Studio 2015](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/2016-03-06-add-2-num-vs-2015-clr/2016-03-06-add-2-num-vs-2015-clr.md), [Visual Studio 2010](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/2016-05-28-add-2-num-vs-2010-clr/2016-05-28-add-2-num-vs-2010-clr.md):
+Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Visual Studio 2017](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-vs-2017-clr/add-2-num-vs-2017-clr.md), [Visual Studio 2015](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/add-2-num-vs-2015-clr/add-2-num-vs-2015-clr.md), [Visual Studio 2010](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/add-2-num-vs-2010-clr/add-2-num-vs-2010-clr.md):
 
 ![Болванка приложения с пустой формой](img/form_01.png)
 
@@ -342,7 +342,7 @@ if (openFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
 
 ![Компонент DataGridView и еще одна кнопка на форме](img/form_04.png)
 
-Вывод данных в таблице будем основывать на статье [Вывод таблицы вручную в Visual Studio в CLR приложении](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-06-11-data-grid-view-vs/2017-06-11-data-grid-view-vs.md).
+Вывод данных в таблице будем основывать на статье [Вывод таблицы вручную в Visual Studio в CLR приложении](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/data-grid-view-vs/data-grid-view-vs.md).
 
 Будем использовать в коде вектора, так что подключим его через заголовочный файл:
 

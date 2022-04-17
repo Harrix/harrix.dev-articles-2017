@@ -26,7 +26,7 @@ public @interface NeedMethod {
 
 Более подробно про аннотации можно прочитать тут:
 
-[https://ru.wikipedia.org/wiki/Аннотация_(Java)](https://ru.wikipedia.org/wiki/Аннотация_(Java))
+[https://ru.wikipedia.org/wiki/Аннотация\_(Java)](<https://ru.wikipedia.org/wiki/Аннотация_(Java)>)
 
 <http://www.seostella.com/ru/article/2012/05/19/annotacii-v-java-vvedenie.html>
 
@@ -219,4 +219,4 @@ public class Main {
 
 В общем, примеры создания собственных аннотаций и их использования показал. Но вот только скорее всего возникнет вопрос: а зачем оно нужно?
 
-В статье [Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-08-method-call-java-annotation/2017-05-08-method-call-java-annotation.md) показан пример использования аннотаций более приближенного к практике.
+В статье [Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/method-call-java-annotation/method-call-java-annotation.md) показан пример использования аннотаций более приближенного к практике.

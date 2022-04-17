@@ -10,21 +10,21 @@ tags: [Клиент-сервер, Java, Android, Android Studio, Сложени�
 
 Все статьи посвящены сложению двух чисел.
 
-* Серверная часть:
-  * PHP:
-    * [PHP с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-04-add-2-num-php-get/2017-05-04-add-2-num-php-get.md);
-    * [PHP с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-php-post/2017-05-05-add-2-num-php-post.md).
-    * [PHP с передачей параметров через POST и генерацией JSON](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-07-add-2-num-php-post-json/2017-05-07-add-2-num-php-post-json.md);
-  * Java:
-    * [JAVA с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-07-add-2-num-php-post-json/2017-05-07-add-2-num-php-post-json.md);
-    * [JAVA с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-java-post/2017-05-05-add-2-num-java-post.md);
-* Клиентская часть:
-  * HTML:
-    * [HTML с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-html-get/2017-05-05-add-2-num-html-get.md);
-    * [HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-html-post/2017-05-05-add-2-num-html-post.md);
-  * Android Studio:
-    * [Android Studio с использованием HttpClient с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-apache-http/2017-05-05-add-2-num-apache-http.md);
-    * [Android Studio с использованием HttpClient с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-apache-http-post/2017-05-05-add-2-num-apache-http-post.md);
-    * [Android Studio с использованием HttpURLConnection с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-http-url-connection/2017-05-05-add-2-num-http-url-connection.md);
-    * [Android Studio с использованием HttpURLConnection и передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-http-url-connection-post/2017-05-05-add-2-num-http-url-connection-post.md);
-    * [Android Studio с использованием Retrofit и передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-08-add-2-num-http-retrofit-post-json/2017-05-08-add-2-num-http-retrofit-post-json.md).
+- Серверная часть:
+  - PHP:
+    - [PHP с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md);
+    - [PHP с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md).
+    - [PHP с передачей параметров через POST и генерацией JSON](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-post-json/add-2-num-php-post-json.md);
+  - Java:
+    - [JAVA с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-post-json/add-2-num-php-post-json.md);
+    - [JAVA с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-java-post/add-2-num-java-post.md);
+- Клиентская часть:
+  - HTML:
+    - [HTML с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-html-get/add-2-num-html-get.md);
+    - [HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-html-post/add-2-num-html-post.md);
+  - Android Studio:
+    - [Android Studio с использованием HttpClient с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md);
+    - [Android Studio с использованием HttpClient с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-apache-http-post/add-2-num-apache-http-post.md);
+    - [Android Studio с использованием HttpURLConnection с передачей параметров через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection/add-2-num-http-url-connection.md);
+    - [Android Studio с использованием HttpURLConnection и передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md);
+    - [Android Studio с использованием Retrofit и передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-retrofit-post-json/add-2-num-http-retrofit-post-json.md).

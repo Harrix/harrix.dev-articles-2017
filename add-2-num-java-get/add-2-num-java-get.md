@@ -7,13 +7,13 @@ related-id: client-server
 
 # Сложение двух чисел на JAVA с передачей параметров через GET (серверное приложение)
 
-Рассмотрен пример сервлета на Java, который делает то же самое, что и [PHP скрипт](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-04-add-2-num-php-get/2017-05-04-add-2-num-php-get.md): складывает два числа, которые пришли со стороны клиента.
+Рассмотрен пример сервлета на Java, который делает то же самое, что и [PHP скрипт](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md): складывает два числа, которые пришли со стороны клиента.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-05-add-2-num-java-post/2017-05-05-add-2-num-java-post.md) показан сервлет, который работает также, но с параметрами, переданными через POST.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-java-post/add-2-num-java-post.md) показан сервлет, который работает также, но с параметрами, переданными через POST.
 
 ## Приготовления
 
-В статье [Простейшее web-приложение на Java на сервере Tomcat](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-04-27-tomcat/2017-04-27-tomcat.md) рассмотрен пример простейшего сервлета с инструкцией по установке и поднятии сервера `Tomcat`. Поэтому в этой статье я не буду рассматривать подробно процесс компилирования `.java` файлов в `.class` файлы, создание папок для нашего приложения. Для этого обратитесь в вышеприведенную статью.
+В статье [Простейшее web-приложение на Java на сервере Tomcat](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/tomcat/tomcat.md) рассмотрен пример простейшего сервлета с инструкцией по установке и поднятии сервера `Tomcat`. Поэтому в этой статье я не буду рассматривать подробно процесс компилирования `.java` файлов в `.class` файлы, создание папок для нашего приложения. Для этого обратитесь в вышеприведенную статью.
 
 ## Постановка задачи
 
@@ -172,7 +172,7 @@ javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 
 Перезапускаем сервер Tomcat.
 
-Если что-то пошло не так или какой-то шаг непонятен, то читаем [статью](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-04-27-tomcat/2017-04-27-tomcat.md).
+Если что-то пошло не так или какой-то шаг непонятен, то читаем [статью](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/tomcat/tomcat.md).
 
 ## Проверка работы
 
@@ -188,4 +188,4 @@ javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 
 ![Результат выполнения программы](img/result.png)
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-05-04-add-2-num-php-get/2017-05-04-add-2-num-php-get.md) рассмотрен пример web-приложения на PHP, который делает тоже самое.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) рассмотрен пример web-приложения на PHP, который делает тоже самое.

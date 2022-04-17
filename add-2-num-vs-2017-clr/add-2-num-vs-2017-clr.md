@@ -10,7 +10,7 @@ tags: [Visual Studio, C++, Сложение двух чисел]
 
 ## Установка Visual Studio
 
-Об установке программы с нужными пакетами можно прочитать в статье [Установка Visual Studio 2017 Community](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/2017-04-13-install-visual-studio-2017/2017-04-13-install-visual-studio-2017.md).
+Об установке программы с нужными пакетами можно прочитать в статье [Установка Visual Studio 2017 Community](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/install-visual-studio-2017/install-visual-studio-2017.md).
 
 ## Создание проекта
 
