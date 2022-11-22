@@ -3,7 +3,7 @@ date: 2017-05-07
 categories: [it, programming]
 tags: [C++, Qt]
 update: 2020-05-12
-source: files/boost.zip
+download: https://github.com/Harrix/harrix.dev-blog-2017/raw/main/boost-qt/files/boost.zip
 ---
 
 # Установка Boost под Qt
