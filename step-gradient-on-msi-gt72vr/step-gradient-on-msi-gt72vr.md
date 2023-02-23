@@ -2,6 +2,8 @@
 date: 2017-02-23
 categories: [it, hardware]
 tags: [MSI, Ноутбук, Nvidia]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Ступенчатый градиент на MSI GT72VR 6RD(Dominator)-090RU

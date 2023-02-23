@@ -3,6 +3,8 @@ date: 2017-04-27
 categories: [it, web]
 tags: [Java, Установка, Клиент-сервер]
 related-id: client-server
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Простейшее web-приложение на Java на сервере Tomcat

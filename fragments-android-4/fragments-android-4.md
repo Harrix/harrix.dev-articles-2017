@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [Java, Android, Android Studio]
 update: 2020-05-19
 related-id: fragments
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Взаимодействие между фрагментами и активностью в Android Studio. Часть 4. Через намерения

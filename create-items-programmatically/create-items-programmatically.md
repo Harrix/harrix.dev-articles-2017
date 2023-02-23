@@ -3,6 +3,8 @@ date: 2017-07-02
 categories: [it, programming]
 tags: [Android, Android Studio, Java]
 update: 2019-11-03
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Создание элементов в Android приложении программно

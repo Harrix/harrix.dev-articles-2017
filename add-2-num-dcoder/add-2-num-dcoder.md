@@ -2,6 +2,8 @@
 date: 2017-03-19
 categories: [it, programming]
 tags: [C++, Android, Сложение двух чисел]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел в Dcoder на C++

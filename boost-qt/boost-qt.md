@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [C++, Qt]
 update: 2020-05-12
 download: https://github.com/Harrix/harrix.dev-blog-2017/raw/main/boost-qt/files/boost.zip
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Boost под Qt

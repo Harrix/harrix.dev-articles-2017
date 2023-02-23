@@ -2,6 +2,8 @@
 date: 2017-03-18
 categories: [it, programming]
 tags: [C++, Visual Studio, Сложение двух чисел]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел в Visual Studio 2015 на C++ без использования `stdafx.h` (консольное Win32 приложение)

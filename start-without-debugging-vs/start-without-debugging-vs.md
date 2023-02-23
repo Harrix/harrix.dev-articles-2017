@@ -2,6 +2,8 @@
 date: 2017-04-25
 categories: [it, programming]
 tags: [Visual Studio]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Кнопка «Запуск без отладки» на панели инструментов в Visual Studio

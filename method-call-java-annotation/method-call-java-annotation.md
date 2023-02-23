@@ -2,6 +2,8 @@
 date: 2017-05-08
 categories: [it, programming]
 tags: [Java]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java

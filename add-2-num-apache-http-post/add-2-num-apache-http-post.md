@@ -4,6 +4,8 @@ categories: [it, web]
 tags: [Клиент-сервер, Java, Android, Android Studio, Сложение двух чисел]
 update: 2020-02-25
 related-id: client-server
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел в Android Studio с использованием Apache HTTP с передачей параметров через POST (клиент-серверное приложение)

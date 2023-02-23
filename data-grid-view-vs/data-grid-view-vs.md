@@ -2,6 +2,8 @@
 date: 2017-06-11
 categories: [it, programming]
 tags: [C++, Visual Studio]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Вывод таблицы вручную в Visual Studio в CLR приложении

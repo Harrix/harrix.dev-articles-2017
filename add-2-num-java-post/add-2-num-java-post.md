@@ -3,6 +3,8 @@ date: 2017-05-05
 categories: [it, web]
 tags: [Клиент-сервер, Java, Сложение двух чисел]
 related-id: client-server
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел на JAVA с передачей параметров через POST (серверное приложение)

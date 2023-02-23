@@ -2,6 +2,8 @@
 date: 2017-06-10
 categories: [it, programming]
 tags: [SQLite, Базы данных, SQL]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Внешние ключи в DB Browser for SQLite

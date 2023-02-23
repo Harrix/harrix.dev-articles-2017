@@ -3,6 +3,8 @@ date: 2017-04-10
 categories: [it, programming]
 tags: [Android, Android Studio, Java, SQLite, Базы данных, SQL]
 update: 2020-01-20
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Подключение существующей БД SQLite в Android Studio

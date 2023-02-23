@@ -4,6 +4,8 @@ categories: [it, web]
 tags: [Клиент-сервер, PHP, Сложение двух чисел]
 related-id: client-server
 demo: demo
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел на PHP с передачей параметров через POST (серверное приложение)

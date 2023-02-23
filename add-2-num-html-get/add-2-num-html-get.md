@@ -4,6 +4,8 @@ categories: [it, web]
 tags: [Клиент-сервер, HTML, Сложение двух чисел]
 related-id: client-server
 demo: demo
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел в HTML (клиентское приложение)

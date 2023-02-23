@@ -3,6 +3,8 @@ date: 2017-04-13
 categories: [it, program]
 tags: [Установка, Visual Studio, C++]
 update: 2019-07-14
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Visual Studio 2017 Community
