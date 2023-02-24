@@ -9,6 +9,7 @@ author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-apache-http-post/add-2-num-apache-http-post.md
+url: https://harrix.dev/ru/blog/2017/add-2-num-apache-http-post/
 ---
 
 # Сложение двух чисел в Android Studio с использованием Apache HTTP с передачей параметров через POST (клиент-серверное приложение)
