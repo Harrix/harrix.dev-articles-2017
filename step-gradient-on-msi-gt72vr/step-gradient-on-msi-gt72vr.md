@@ -4,6 +4,8 @@ categories: [it, hardware]
 tags: [MSI, Ноутбук, Nvidia]
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Ступенчатый градиент на MSI GT72VR 6RD(Dominator)-090RU

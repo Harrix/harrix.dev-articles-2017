@@ -5,6 +5,8 @@ tags: [Android, Android Studio, Java]
 update: 2019-11-03
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Создание элементов в Android приложении программно

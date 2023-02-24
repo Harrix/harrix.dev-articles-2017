@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [Android, Android Studio, Java, SQLite, SQL]
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Подключение существующей БД SQLite в Android Studio (кратко)

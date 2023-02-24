@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [Java]
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java
