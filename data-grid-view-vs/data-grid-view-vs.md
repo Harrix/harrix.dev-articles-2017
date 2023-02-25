@@ -25,19 +25,27 @@ lang: ru
 
 ![Форма приложения](img/new-form.png)
 
+_Рисунок 1 — Форма приложения_
+
 ## Размещаем компоненты
 
 Разместите на приложении кнопку:
 
 ![Кнопка на форме](img/button.png)
 
+_Рисунок 2 — Кнопка на форме_
+
 И размещаем компонент таблицы `DataGridView`. О компоненте можно почитать [тут](http://rsdn.org/article/dotnet/DataGridView20.xml):
 
 ![Компонент DataGridView](img/data-grid-view_01.png)
 
+_Рисунок 3 — Компонент DataGridView_
+
 Растянул компонент:
 
 ![Растянутый компонент DataGridView](img/data-grid-view_02.png)
+
+_Рисунок 4 — Растянутый компонент DataGridView_
 
 ## Заполняем таблицу
 
@@ -108,7 +116,11 @@ dataGridView1->Rows->Add(row);
 
 ![Запущенное приложение](img/result_01.png)
 
+_Рисунок 5 — Запущенное приложение_
+
 ![Таблица после нажатия кнопки](img/result_02.png)
+
+_Рисунок 6 — Таблица после нажатия кнопки_
 
 Надеюсь, что очевидно, что создание новой строчки таблицы можно запихать в цикл.
 
@@ -168,6 +180,8 @@ dataGridView1->DataSource = table;
 
 ![Результат выполнения программы](img/result_03.png)
 
+_Рисунок 7 — Результат выполнения программы_
+
 Типы колонок для отображения информации можно посмотреть по [ссылке](https://docs.microsoft.com/en-us/dotnet/api/system.data.datacolumn.datatype?redirectedfrom=MSDN&view=netcore-3.1#System_Data_DataColumn_DataType).
 
 ## Второй способ с циклом
@@ -210,4 +224,8 @@ dataGridView1->DataSource = table;
 
 ![Код клика кнопки](img/cpp.png)
 
+_Рисунок 8 — Код клика кнопки_
+
 ![Пример большой таблицы](img/result_04.png)
+
+_Рисунок 9 — Пример большой таблицы_

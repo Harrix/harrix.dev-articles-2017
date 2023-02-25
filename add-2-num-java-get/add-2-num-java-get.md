@@ -197,4 +197,6 @@ javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 
 ![Результат выполнения программы](img/result.png)
 
+_Рисунок 1 — Результат выполнения программы_
+
 В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) рассмотрен пример web-приложения на PHP, который делает тоже самое.
