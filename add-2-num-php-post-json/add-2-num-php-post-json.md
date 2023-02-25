@@ -15,6 +15,8 @@ lang: ru
 
 # Сложение двух чисел на PHP с передачей параметров через POST и генерацией JSON (серверное приложение)
 
+![Featured image](featured-image.svg)
+
 В отличии от статьи [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) сервер в качестве ответа формирует JSON файл.
 
 ## Приготовления

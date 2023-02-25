@@ -13,6 +13,8 @@ lang: ru
 
 # Сложение двух чисел в Dcoder на C++
 
+![Featured image](featured-image.svg)
+
 В статье рассказывается, как создать консольное приложения сложения двух чисел в Dcoder (Mobile Compiler IDE) на Android.
 
 ## Программа

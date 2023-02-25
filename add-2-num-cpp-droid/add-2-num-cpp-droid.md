@@ -13,6 +13,8 @@ lang: ru
 
 # Сложение двух чисел в CppDroid на C++
 
+![Featured image](featured-image.svg)
+
 В статье рассказывается, как создать консольное приложения сложения двух чисел в CppDroid на Android.
 
 ## Программа

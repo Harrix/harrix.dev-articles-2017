@@ -15,6 +15,8 @@ lang: ru
 
 # Установка Boost под Qt
 
+![Featured image](featured-image.svg)
+
 Сказ о том, как установить библиотеку Boost для Qt под MinGW и Qt под Visual Studio.
 
 Материал подготовлен на примере Qt 15.0, Visual Studio 2019 16.5.4, Boost 1.73.0, Windows 10. Папка Boost после компиляции под MinGW x86-x64, Visual Studio x86-x64 у меня занимает 22,9 ГБ.

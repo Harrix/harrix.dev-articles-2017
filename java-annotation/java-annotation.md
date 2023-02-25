@@ -13,6 +13,8 @@ lang: ru
 
 # Кратко об аннотациях в Java
 
+![Featured image](featured-image.svg)
+
 Что такое аннотация в Java? Давайте глянем.
 
 ## Как аннотации выглядят

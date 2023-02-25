@@ -15,6 +15,8 @@ lang: ru
 
 # Сложение двух чисел в Android Studio с использованием Apache HTTP (клиент-серверное приложение)
 
+![Featured image](featured-image.svg)
+
 Напишем приложение сложение двух чисел, где сложение двух чисел происходит на стороне сервера.
 
 Внимание! В данной статье используются устаревшие классы по работе с запросами. В статье [Сложение двух чисел в Android Studio с использованием HttpURLConnection (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection/add-2-num-http-url-connection.md) приведен вариант с использованием классов, пришедших на замену.

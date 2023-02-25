@@ -13,6 +13,8 @@ lang: ru
 
 # Внешние ключи в DB Browser for SQLite
 
+![Featured image](featured-image.svg)
+
 Сказ о том, как включить поддержку внешних ключей в популярной программе по редактированию SQLite баз данных.
 
 Откроем программу `DB Browser for SQLite`.

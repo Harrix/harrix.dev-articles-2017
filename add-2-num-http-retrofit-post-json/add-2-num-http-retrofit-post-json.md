@@ -15,6 +15,8 @@ lang: ru
 
 # Сложение двух чисел в Android Studio с использованием Retrofit (клиент-серверное приложение)
 
+![Featured image](featured-image.svg)
+
 Напишем приложение сложение двух чисел, где сложение двух чисел происходит на стороне сервера.
 
 В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md) приведен вариант, где сервер выдает одно число и всё. Чаще всего же сервера в виде текстовых файлов отдают либо HTML, либо XML, либо JSON, то есть структурированную информацию. В таких случаях часто используют библиотеку [Retrofit](https://square.github.io/retrofit/).

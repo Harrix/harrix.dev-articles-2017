@@ -13,6 +13,8 @@ lang: ru
 
 # Подключение SQLite в проектах Visual Studio в CRL проекте
 
+![Featured image](featured-image.svg)
+
 Учебный пример о подключении популярного формата базы данных к проекту. Будем показывать на примере Visual Studio 2017 Community.
 
 ## Создание базы данных

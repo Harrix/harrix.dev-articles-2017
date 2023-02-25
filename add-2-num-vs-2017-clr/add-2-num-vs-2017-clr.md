@@ -13,6 +13,8 @@ lang: ru
 
 # Сложение двух чисел в Visual Studio 2017 на C++ (CLR приложение)
 
+![Featured image](featured-image.svg)
+
 В статье рассказывается как создать CLR приложение сложения двух чисел в Visual Studio 2017 на C++.
 
 ## Установка Visual Studio

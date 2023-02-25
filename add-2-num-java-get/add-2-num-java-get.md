@@ -14,6 +14,8 @@ lang: ru
 
 # Сложение двух чисел на JAVA с передачей параметров через GET (серверное приложение)
 
+![Featured image](featured-image.svg)
+
 Рассмотрен пример сервлета на Java, который делает то же самое, что и [PHP скрипт](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md): складывает два числа, которые пришли со стороны клиента.
 
 В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-java-post/add-2-num-java-post.md) показан сервлет, который работает также, но с параметрами, переданными через POST.

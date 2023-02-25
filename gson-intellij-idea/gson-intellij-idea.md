@@ -13,6 +13,8 @@ lang: ru
 
 # Подключение Gson в IntelliJ IDEA и простейшая работа с библиотекой
 
+![Featured image](featured-image.svg)
+
 Gson — популярная [библиотека](https://github.com/google/gson) от Google для создания и парсинга JSON файлов на Java. Как подключить?
 
 ## Создание консольного приложения

@@ -14,6 +14,8 @@ lang: ru
 
 # Подключение существующей БД SQLite в Android Studio
 
+![Featured image](featured-image.svg)
+
 Пример простого Android приложения, в котором подключаемся к заранее подготовленной базе данных SQLite.
 
 ## Введение
