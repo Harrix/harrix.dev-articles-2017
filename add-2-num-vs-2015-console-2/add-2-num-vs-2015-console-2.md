@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-vs-2015-console-2/add-2-num-vs-2015-console-2.md
 url: https://harrix.dev/ru/blog/2017/add-2-num-vs-2015-console-2/
+lang: ru
 ---
 
 # Сложение двух чисел в Visual Studio 2015 на C++ без использования `stdafx.h` (консольное Win32 приложение)

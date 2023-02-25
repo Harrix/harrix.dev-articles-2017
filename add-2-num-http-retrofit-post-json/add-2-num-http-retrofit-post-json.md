@@ -10,6 +10,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-retrofit-post-json/add-2-num-http-retrofit-post-json.md
 url: https://harrix.dev/ru/blog/2017/add-2-num-http-retrofit-post-json/
+lang: ru
 ---
 
 # Сложение двух чисел в Android Studio с использованием Retrofit (клиент-серверное приложение)

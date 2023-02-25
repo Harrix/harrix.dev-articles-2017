@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/start-without-debugging-vs/start-without-debugging-vs.md
 url: https://harrix.dev/ru/blog/2017/start-without-debugging-vs/
+lang: ru
 ---
 
 # Кнопка «Запуск без отладки» на панели инструментов в Visual Studio

@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/sqlite-vs/sqlite-vs.md
 url: https://harrix.dev/ru/blog/2017/sqlite-vs/
+lang: ru
 ---
 
 # Подключение SQLite в проектах Visual Studio в CRL проекте

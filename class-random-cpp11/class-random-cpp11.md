@@ -8,6 +8,7 @@ license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/class-random-cpp11/class-random-cpp11.md
 url: https://harrix.dev/ru/blog/2017/class-random-cpp11/
+lang: ru
 ---
 
 # Класс генератора случайных чисел для C++11
