@@ -21,13 +21,13 @@ lang: ru
 
 Все статьи цикла «Взаимодействие между фрагментами и активностью в Android Studio»:
 
-- [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md)
-- [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-2/fragments-android-2.md)
-- [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-3/fragments-android-3.md)
-- [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md)
-- [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-5/fragments-android-5.md)
+- [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->
+- [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-2/fragments-android-2.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-2/ -->
+- [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-3/fragments-android-3.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-3/ -->
+- [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-4/ -->
+- [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-5/fragments-android-5.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-5/ -->
 
-Предыдущая часть [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md).
+Предыдущая часть [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-4/ -->.
 
 ## Введение
 
@@ -39,7 +39,7 @@ lang: ru
 
 А разнообразные способы общения фрагментов с активностью были рассмотрены в предыдущих частях. Фактически, ничего нового дальше не будет — всё будет представлять собой комбинацию уже описанных взаимодействий.
 
-И да. Помните в [первой части](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) мы создали три, а не один фрагмент. Пришло время про них вспомнить.
+И да. Помните в [первой части](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ --> мы создали три, а не один фрагмент. Пришло время про них вспомнить.
 
 ## Открываем фрагмент из другого фрагмента в другом контейнере. Простой способ
 
@@ -51,7 +51,7 @@ lang: ru
 
 _Рисунок 1 — Два контейнера для размещения контейнеров_
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
 
 **Решение.** Мы в активности определим метод `openFragment2()`, который будем вызывать из фрагмента. Этот метод простой, но пользоваться им крайне **не рекомендую**!
 
@@ -198,9 +198,9 @@ _Рисунок 2 — Результат выполнения программы
 
 **Задача.** Решаем ту же задачу, но другим способом. При нажатии на кнопку `buttonFragment1` в фрагменте `Fragment1` во втором контейнере `fragmentContainer2` откроется фрагмент `Fragment2`.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
 
-**Решение.** Используем механизм из [части 3](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-3/fragments-android-3.md).
+**Решение.** Используем механизм из [части 3](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-3/fragments-android-3.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-3/ -->.
 
 ---
 
@@ -368,9 +368,9 @@ _Рисунок 3 — Результат выполнения программы
 
 **Задача.** Решаем ту же задачу, но другим способом. При нажатии на кнопку `buttonFragment1` в фрагменте `Fragment1` во втором контейнере `fragmentContainer2` откроется фрагмент `Fragment2`.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
 
-**Решение.** Используем механизм из [части 4](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md).
+**Решение.** Используем механизм из [части 4](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-4/ -->.
 
 ---
 
@@ -539,7 +539,7 @@ _Рисунок 4 — Результат выполнения программы
 
 То есть мы хотим при открытии второго фрагмента передать ему еще информацию из первого фрагмента.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
 
 **Решение.** Надеюсь, что вы поняли принцип работы простого способа и способа через намерения. Больше к ним возвращаться не буду. Будем использовать только рекомендованный способ через создание слушателей-интерфейсов.
 
@@ -1045,7 +1045,7 @@ _Рисунок 6 — Результат выполнения программы
 
 **Задача.** При нажатии на кнопку `buttonFragment1` в фрагменте `Fragment1` во втором контейнере `fragmentContainer2` должны переключаться `Fragment2` и `Fragment3`.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
 
 **Решение.** Если во втором контейнере есть уже фрагмент, то проверяем: наследником какого фрагмента является фрагмент. И замещаем через `.replace()` на противоположный фрагмент.
 
@@ -1230,7 +1230,7 @@ _Рисунок 7 — Результат выполнения программы
 
 То есть мы хотим при открытии второго фрагмента передать ему еще информацию из первого фрагмента.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md).
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
 
 **Решение.** Действуем по аналогии с предыдущими задачами.
 

@@ -17,15 +17,15 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-В отличии от статьи [Сложение двух чисел на HTML + PHP](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/add-2-num-php/add-2-num-php.md) тут рассматривается пример web-приложения без использования HTML — только серверная часть. Подобные приложения могут использоваться для клиент-серверных приложений, когда клиент отправляет на сервер запрос, сервер формирует ответ и возвращает клиенту.
+В отличии от статьи [Сложение двух чисел на HTML + PHP](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/add-2-num-php/add-2-num-php.md) <!-- https://harrix.dev/ru/blog/2015/add-2-num-php/ --> тут рассматривается пример web-приложения без использования HTML — только серверная часть. Подобные приложения могут использоваться для клиент-серверных приложений, когда клиент отправляет на сервер запрос, сервер формирует ответ и возвращает клиенту.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) рассматривается вариант с GET запросом.
+В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-php-get/ --> рассматривается вариант с GET запросом.
 
 ## Приготовления
 
-Нам потребуется так или иначе сервер, на котором просчитываются PHP скрипты. Можно установить локальный сервер (например, [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/apache-php-mysql/apache-php-mysql.md) описано) через установку связки Apache + PHP + MySQL + phpMyAdmin, можно воспользоваться уже готовыми сборками (Denver, Open Server, WampServer и др.). Можно использовать сервер на каком-нибудь виртуальном хостинге и так далее. В общем, вариантов много.
+Нам потребуется так или иначе сервер, на котором просчитываются PHP скрипты. Можно установить локальный сервер (например, [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/blog/2018/apache-php-mysql/ --> описано) через установку связки Apache + PHP + MySQL + phpMyAdmin, можно воспользоваться уже готовыми сборками (Denver, Open Server, WampServer и др.). Можно использовать сервер на каком-нибудь виртуальном хостинге и так далее. В общем, вариантов много.
 
-Далее предполагается, что у вас есть такой сервер, вы умеете запускать в браузере PHP скрипты (если не знаете, то или [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/apache-php-mysql/apache-php-mysql.md) почитайте или в любом другом месте в учебниках по PHP).
+Далее предполагается, что у вас есть такой сервер, вы умеете запускать в браузере PHP скрипты (если не знаете, то или [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/blog/2018/apache-php-mysql/ --> почитайте или в любом другом месте в учебниках по PHP).
 
 ## Постановка задачи
 
@@ -61,7 +61,7 @@ else {
 
 Разберем данный код.
 
-В строчках ниже мы считываем наши параметры в виде строковых переменных из POST параметров. Причем стараемся себе обезопасить, экранировав служебные символы функцией `htmlentities`, чтобы нельзя было передать через значения переменных зловредный код. Кстати, в этих двух строчках единственное отличие от кода для передачи параметров [через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md):
+В строчках ниже мы считываем наши параметры в виде строковых переменных из POST параметров. Причем стараемся себе обезопасить, экранировав служебные символы функцией `htmlentities`, чтобы нельзя было передать через значения переменных зловредный код. Кстати, в этих двух строчках единственное отличие от кода для передачи параметров [через GET](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-php-get/ -->:
 
 ```php
 if (isset($_POST['a'])) $string_a = htmlentities($_POST['a']);

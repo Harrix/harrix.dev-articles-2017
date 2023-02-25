@@ -17,7 +17,7 @@ lang: ru
 
 В статье представлен класс для использования существующей базы данных SQLite. Данный класс позволяет обновлять базу данных через переменную DB_VERSION.
 
-Подробная статья [тут](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/exist-sqlite-android-studio/exist-sqlite-android-studio.md).
+Подробная статья [тут](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/exist-sqlite-android-studio/exist-sqlite-android-studio.md) <!-- https://harrix.dev/ru/blog/2017/exist-sqlite-android-studio/ -->.
 
 ## Подготовка файла базы данных SQLite
 
