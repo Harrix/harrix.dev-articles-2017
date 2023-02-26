@@ -8,7 +8,7 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-html-get/add-2-num-html-get.md
+permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-html-get/add-2-num-html-get.md
 permalink: https://harrix.dev/ru/blog/2017/add-2-num-html-get/
 lang: ru
 ---
@@ -88,10 +88,7 @@ https://[путь с скрипту]?a=2&b=3
 У нас сложение двух чисел будет происходить не на стороне клиента, а на стороне сервера. Поэтому форме нужно указать адрес сервера, куда мы отправим запрос:
 
 ```html
-<form
-  action="https://harrix.dev/blog/2017/add-2-num-php-get/demo"
-  method="get"
-></form>
+<form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get"></form>
 ```
 
 Общий документ будет иметь вид:
@@ -107,10 +104,7 @@ https://[путь с скрипту]?a=2&b=3
   </head>
 
   <body>
-    <form
-      action="https://harrix.dev/blog/2017/add-2-num-php-get/demo"
-      method="get"
-    >
+    <form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get">
       <input name="a" type="text" value="2" /><br />
       <input name="b" type="text" value="3" /><br />
       <input type="submit" value="Сложить 2 два числа" />
