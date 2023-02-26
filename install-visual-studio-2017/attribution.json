@@ -1,11 +1,13 @@
-[
+{
+"attribution":[
   {
     "title": "Visual Studio 2017 Logo.svg",
-    "url": "https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg",
-    "urlDate": "2019-06-08",
+    "permalink": "https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg",
+    "permalink-date": "2019-06-08",
     "author": "Microsoft Corporation",
-    "authorUrl": "https://www.microsoft.com/",
+    "author-site": "https://www.microsoft.com/",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain"
+    "license-url": "https://en.wikipedia.org/wiki/Public_domain"
   }
 ]
+}

@@ -1,11 +1,13 @@
-[
+{
+"attribution":[
   {
     "title": "HTML5 logo and wordmark.svg",
-    "url": "https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg",
-    "urlDate": "2019-02-24",
+    "permalink": "https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg",
+    "permalink-date": "2019-02-24",
     "author": "W3C",
-    "authorUrl": "https://www.w3.org/html/logo/index.html",
+    "author-site": "https://www.w3.org/html/logo/index.html",
     "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    "license-url": "https://creativecommons.org/licenses/by/3.0/"
   }
 ]
+}
