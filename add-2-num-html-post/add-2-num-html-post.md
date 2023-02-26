@@ -82,7 +82,10 @@ lang: ru
 У нас сложение двух чисел будет происходить не на стороне клиента, а на стороне сервера. Поэтому форме нужно указать адрес сервера, куда мы отправим запрос. Обратите внимание на то, что параметр `method` принимает значение `post`:
 
 ```html
-<form action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/" method="post"></form>
+<form
+  action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/"
+  method="post"
+></form>
 ```
 
 Общий документ будет иметь вид:
@@ -98,7 +101,10 @@ lang: ru
   </head>
 
   <body>
-    <form action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/" method="post">
+    <form
+      action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/"
+      method="post"
+    >
       <input name="a" type="text" value="2" /><br />
       <input name="b" type="text" value="3" /><br />
       <input type="submit" value="Сложить 2 два числа" />

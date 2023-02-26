@@ -88,7 +88,10 @@ https://[путь с скрипту]?a=2&b=3
 У нас сложение двух чисел будет происходить не на стороне клиента, а на стороне сервера. Поэтому форме нужно указать адрес сервера, куда мы отправим запрос:
 
 ```html
-<form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get"></form>
+<form
+  action="https://harrix.dev/blog/2017/add-2-num-php-get/demo"
+  method="get"
+></form>
 ```
 
 Общий документ будет иметь вид:
@@ -104,7 +107,10 @@ https://[путь с скрипту]?a=2&b=3
   </head>
 
   <body>
-    <form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get">
+    <form
+      action="https://harrix.dev/blog/2017/add-2-num-php-get/demo"
+      method="get"
+    >
       <input name="a" type="text" value="2" /><br />
       <input name="b" type="text" value="3" /><br />
       <input type="submit" value="Сложить 2 два числа" />
