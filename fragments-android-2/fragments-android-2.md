@@ -12,13 +12,9 @@ permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragm
 permalink: https://harrix.dev/ru/blog/2017/fragments-android-2/
 lang: ru
 attribution:
-  - author: Google Inc.
-    author-site: https://developer.android.com/license
-    license: CC BY 2.5
-    license-url: https://creativecommons.org/licenses/by/2.5/
-    permalink: https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg
-    permalink-date: 2019-06-07
-    name: Android Studio icon.svg
+- {author: Google Inc., author-site: 'https://developer.android.com/license', license: CC
+    BY 2.5, license-url: 'https://creativecommons.org/licenses/by/2.5/', permalink: 'https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg',
+  permalink-date: 2019-06-07, name: Android Studio icon.svg}
 ---
 
 # Взаимодействие между фрагментами и активностью в Android Studio. Часть 2. Простые способы

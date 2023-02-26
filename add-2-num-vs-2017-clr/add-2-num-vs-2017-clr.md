@@ -10,13 +10,9 @@ permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2
 permalink: https://harrix.dev/ru/blog/2017/add-2-num-vs-2017-clr/
 lang: ru
 attribution:
-  - author: Microsoft Corporation
-    author-site: https://www.microsoft.com/
-    license: Public domain
-    license-url: https://en.wikipedia.org/wiki/Public_domain
-    permalink: https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg
-    permalink-date: 2019-06-08
-    name: Visual Studio 2017 Logo.svg
+- {author: Microsoft Corporation, author-site: 'https://www.microsoft.com/', license: Public
+    domain, license-url: 'https://en.wikipedia.org/wiki/Public_domain', permalink: 'https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg',
+  permalink-date: 2019-06-08, name: Visual Studio 2017 Logo.svg}
 ---
 
 # Сложение двух чисел в Visual Studio 2017 на C++ (CLR приложение)
