@@ -9,6 +9,14 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/foreign-key-sqlite/foreign-key-sqlite.md
 permalink: https://harrix.dev/ru/blog/2017/foreign-key-sqlite/
 lang: ru
+attribution:
+  - author: Mike Toews
+    author-site: https://commons.wikimedia.org/wiki/User:Mwtoews
+    license: CC BY-SA 3.0
+    license-url: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+    permalink: https://commons.wikimedia.org/wiki/File:Sqlite-square-icon.svg
+    permalink-date: 2019-01-26
+    name: Sqlite-square-icon.svg
 ---
 
 # Внешние ключи в DB Browser for SQLite

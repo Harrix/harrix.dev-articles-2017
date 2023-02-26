@@ -11,6 +11,14 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/boost-qt/boost-qt.md
 permalink: https://harrix.dev/ru/blog/2017/boost-qt/
 lang: ru
+attribution:
+  - author: Zoltan Juhasz
+    author-site: https://commons.wikimedia.org/wiki/File:Boost.png
+    license: Boost Software License 1.0
+    license-url: https://www.boost.org/LICENSE_1_0.txt
+    permalink: https://commons.wikimedia.org/wiki/File:Boost.png
+    permalink-date: 2020-05-07
+    name: Boost.png
 ---
 
 # Установка Boost под Qt

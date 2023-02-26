@@ -11,6 +11,14 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-html-get/add-2-num-html-get.md
 permalink: https://harrix.dev/ru/blog/2017/add-2-num-html-get/
 lang: ru
+attribution:
+  - author: W3C
+    author-site: https://www.w3.org/html/logo/index.html
+    license: CC BY 3.0
+    license-url: https://creativecommons.org/licenses/by/3.0/
+    permalink: https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg
+    permalink-date: 2019-02-24
+    name: HTML5 logo and wordmark.svg
 ---
 
 # Сложение двух чисел в HTML (клиентское приложение)

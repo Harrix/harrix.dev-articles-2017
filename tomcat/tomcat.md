@@ -10,6 +10,14 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/tomcat/tomcat.md
 permalink: https://harrix.dev/ru/blog/2017/tomcat/
 lang: ru
+attribution:
+  - author: The Apache Software Foundation
+    author-site: https://www.apache.org/
+    license: Apache License 2.0
+    license-url: https://www.apache.org/licenses/LICENSE-2.0
+    permalink: https://commons.wikimedia.org/wiki/File:Tomcat-logo.svg
+    permalink-date: 2020-02-02
+    name: Tomcat-logo.svg
 ---
 
 # Простейшее web-приложение на Java на сервере Tomcat
