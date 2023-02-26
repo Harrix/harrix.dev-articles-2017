@@ -8,7 +8,7 @@ author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/exist-sqlite-android-studio/exist-sqlite-android-studio.md
-url: https://harrix.dev/ru/blog/2017/exist-sqlite-android-studio/
+permalink: https://harrix.dev/ru/blog/2017/exist-sqlite-android-studio/
 lang: ru
 ---
 
@@ -404,15 +404,15 @@ _Рисунок 29 — Сайт по работе с базой данных_
 
 Итак, логика работы класса `DatabaseHelper` в подготовке базы данных:
 
-* Копируем файл БД, если этого файла нет (при установке приложения).
+- Копируем файл БД, если этого файла нет (при установке приложения).
 
-* Если номер БД обновлен, то заменяем один файл базы данных на другой:
+- Если номер БД обновлен, то заменяем один файл базы данных на другой:
 
 ```java
 private static final int DB_VERSION = 2;
 ```
 
-* После работы с базой данных из данного класса вытаскиваем экземпляр `SQLiteDatabase`, с которым будем работать в дальнейшем: осуществлять запросы и так далее.
+- После работы с базой данных из данного класса вытаскиваем экземпляр `SQLiteDatabase`, с которым будем работать в дальнейшем: осуществлять запросы и так далее.
 
 ## Подключаемся к БД
 

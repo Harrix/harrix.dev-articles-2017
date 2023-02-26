@@ -1,14 +1,13 @@
 ---
 date: 2017-05-08
 categories: [it, web]
-tags: [Клиент-сервер, Java, Android, Android Studio, Сложение двух чисел, JSON, HTML,
-  PHP]
+tags: [Клиент-сервер, Java, Android, Android Studio, Сложение двух чисел, JSON, HTML, PHP]
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 url-src: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/client-server/client-server.md
-url: https://harrix.dev/ru/blog/2017/client-server/
+permalink: https://harrix.dev/ru/blog/2017/client-server/
 lang: ru
 ---
 
