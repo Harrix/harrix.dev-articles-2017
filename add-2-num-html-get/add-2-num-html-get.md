@@ -12,9 +12,16 @@ permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2
 permalink: https://harrix.dev/ru/blog/2017/add-2-num-html-get/
 lang: ru
 attribution:
-- {author: W3C, author-site: 'https://www.w3.org/html/logo/index.html', license: CC
-    BY 3.0, license-url: 'https://creativecommons.org/licenses/by/3.0/', permalink: 'https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg',
-  permalink-date: 2019-02-24, name: HTML5 logo and wordmark.svg}
+  - {
+      author: W3C,
+      author-site: "https://www.w3.org/html/logo/index.html",
+      license: CC
+        BY 3.0,
+      license-url: "https://creativecommons.org/licenses/by/3.0/",
+      permalink: "https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg",
+      permalink-date: 2019-02-24,
+      name: HTML5 logo and wordmark.svg,
+    }
 ---
 
 # Сложение двух чисел в HTML (клиентское приложение)
@@ -92,7 +99,10 @@ https://[путь с скрипту]?a=2&b=3
 У нас сложение двух чисел будет происходить не на стороне клиента, а на стороне сервера. Поэтому форме нужно указать адрес сервера, куда мы отправим запрос:
 
 ```html
-<form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get"></form>
+<form
+  action="https://harrix.dev/blog/2017/add-2-num-php-get/demo"
+  method="get"
+></form>
 ```
 
 Общий документ будет иметь вид:
@@ -108,7 +118,10 @@ https://[путь с скрипту]?a=2&b=3
   </head>
 
   <body>
-    <form action="https://harrix.dev/blog/2017/add-2-num-php-get/demo" method="get">
+    <form
+      action="https://harrix.dev/blog/2017/add-2-num-php-get/demo"
+      method="get"
+    >
       <input name="a" type="text" value="2" /><br />
       <input name="b" type="text" value="3" /><br />
       <input type="submit" value="Сложить 2 два числа" />
