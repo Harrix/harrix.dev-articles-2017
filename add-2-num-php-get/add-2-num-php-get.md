@@ -8,8 +8,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md
-permalink: https://harrix.dev/ru/blog/2017/add-2-num-php-get/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md
+permalink: https://harrix.dev/ru/articles/2017/add-2-num-php-get/
 lang: ru
 ---
 
@@ -17,15 +17,15 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-В отличии от статьи [Сложение двух чисел на HTML + PHP](https://github.com/Harrix/harrix.dev-blog-2015/tree/main/add-2-num-php) тут рассматривается пример web-приложения без использования HTML — только серверная часть. Подобные приложения могут использоваться для клиент-серверных приложений, когда клиент отправляет на сервер запрос, сервер формирует ответ и возвращает клиенту.
+В отличии от статьи [Сложение двух чисел на HTML + PHP](https://github.com/Harrix/harrix.dev-articles-2015/tree/main/add-2-num-php) тут рассматривается пример web-приложения без использования HTML — только серверная часть. Подобные приложения могут использоваться для клиент-серверных приложений, когда клиент отправляет на сервер запрос, сервер формирует ответ и возвращает клиенту.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-post) рассматривается вариант с POST запросом.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post) рассматривается вариант с POST запросом.
 
 ## Приготовления
 
-Нам потребуется так или иначе сервер, на котором просчитываются PHP скрипты. Можно установить локальный сервер (например, [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/blog/2018/apache-php-mysql/ --> описано) через установку связки Apache + PHP + MySQL + phpMyAdmin, можно воспользоваться уже готовыми сборками (Denver, Open Server, WampServer и др.). Можно использовать сервер на каком-нибудь виртуальном хостинге и так далее. В общем, вариантов много.
+Нам потребуется так или иначе сервер, на котором просчитываются PHP скрипты. Можно установить локальный сервер (например, [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/articles/2018/apache-php-mysql/ --> описано) через установку связки Apache + PHP + MySQL + phpMyAdmin, можно воспользоваться уже готовыми сборками (Denver, Open Server, WampServer и др.). Можно использовать сервер на каком-нибудь виртуальном хостинге и так далее. В общем, вариантов много.
 
-Далее предполагается, что у вас есть такой сервер, вы умеете запускать в браузере PHP скрипты (если не знаете, то или [тут](https://github.com/Harrix/harrix.dev-blog-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/blog/2018/apache-php-mysql/ --> почитайте или в любом другом месте в учебниках по PHP).
+Далее предполагается, что у вас есть такой сервер, вы умеете запускать в браузере PHP скрипты (если не знаете, то или [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/articles/2018/apache-php-mysql/ --> почитайте или в любом другом месте в учебниках по PHP).
 
 ## Постановка задачи
 
@@ -96,20 +96,20 @@ $b = (int)$string_b;
 
 ## Проверка работы
 
-Рассмотрим работу скрипта на тестовом примере. У меня скрипт залит по адресу [demo/](https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-get/demo) (если перейти по ссылке без параметров, то должно выдаваться `error`).
+Рассмотрим работу скрипта на тестовом примере. У меня скрипт залит по адресу [demo/](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-get/demo) (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
-При вызове [demo/](https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-get/demo) мы получим `error`, так как данные не переданы.
+При вызове [demo/](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-get/demo) мы получим `error`, так как данные не переданы.
 
-При вызове [demo?a=2](https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-get/demo?a=2) мы получим `error`, так как переменная `b` не передана.
+При вызове [demo?a=2](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-get/demo?a=2) мы получим `error`, так как переменная `b` не передана.
 
-При вызове [demo?a=2&b=3](https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-get/demo?a=2&b=3) мы получим `5`.
+При вызове [demo?a=2&b=3](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-get/demo?a=2&b=3) мы получим `5`.
 
-При вызове [demo?a=harrix&b=3](https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-get/demo?a=harrix&b=3) мы получим `3`, так как строка `harrix` была переведена в число `0`.
+При вызове [demo?a=harrix&b=3](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-get/demo?a=harrix&b=3) мы получим `3`, так как строка `harrix` была переведена в число `0`.
 
 ## Дополнительные ссылки
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-java-get/ --> рассмотрен пример web-приложения на Java, который делает тоже самое.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-java-get/ --> рассмотрен пример web-приложения на Java, который делает тоже самое.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-apache-http/ --> и [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection/add-2-num-http-url-connection.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-http-url-connection/ --> рассматривается пример создания клиентского приложения на Android Studio.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-apache-http/ --> и [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection/add-2-num-http-url-connection.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection/ --> рассматривается пример создания клиентского приложения на Android Studio.
 
-В статье [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-html-get/add-2-num-html-get.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-html-get/ --> рассматривается пример создания клиентского приложения на HTML.
+В статье [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-html-get/add-2-num-html-get.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-html-get/ --> рассматривается пример создания клиентского приложения на HTML.

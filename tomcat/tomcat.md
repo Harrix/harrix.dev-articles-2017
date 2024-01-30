@@ -7,8 +7,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/tomcat/tomcat.md
-permalink: https://harrix.dev/ru/blog/2017/tomcat/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/tomcat/tomcat.md
+permalink: https://harrix.dev/ru/articles/2017/tomcat/
 lang: ru
 attribution:
   - {
@@ -34,7 +34,7 @@ Tomcat нужен для работы Java сервера с применени�
 
 ## Установка JDK
 
-[Устанавливаем](https://github.com/Harrix/harrix.dev-blog-2019/blob/main/install-jdk-on-windows/install-jdk-on-windows.md) <!-- https://harrix.dev/ru/blog/2019/install-jdk-on-windows/ --> JDK. Если уже до этого устанавливали, то повторно не устанавливаем.
+[Устанавливаем](https://github.com/Harrix/harrix.dev-articles-2019/blob/main/install-jdk-on-windows/install-jdk-on-windows.md) <!-- https://harrix.dev/ru/articles/2019/install-jdk-on-windows/ --> JDK. Если уже до этого устанавливали, то повторно не устанавливаем.
 
 Если у вас в папке с Java есть только папка с названием `jdk`, но нет с названием `jre`, то аналогичным способом устанавливаем [jre](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) (по ссылке JRE для Java 8):
 

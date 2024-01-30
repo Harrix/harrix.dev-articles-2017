@@ -8,20 +8,12 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-html-post/add-2-num-html-post.md
-permalink: https://harrix.dev/ru/blog/2017/add-2-num-html-post/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-html-post/add-2-num-html-post.md
+permalink: https://harrix.dev/ru/articles/2017/add-2-num-html-post/
 lang: ru
 attribution:
-  - {
-      author: W3C,
-      author-site: "https://www.w3.org/html/logo/index.html",
-      license: CC
-        BY 3.0,
-      license-url: "https://creativecommons.org/licenses/by/3.0/",
-      permalink: "https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg",
-      permalink-date: 2019-02-24,
-      name: HTML5 logo and wordmark.svg,
-    }
+  - { author: W3C, author-site: "https://www.w3.org/html/logo/index.html", license: CC
+        BY 3.0, license-url: "https://creativecommons.org/licenses/by/3.0/", permalink: "https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg", permalink-date: 2019-02-24, name: HTML5 logo and wordmark.svg }
 ---
 
 # Сложение двух чисел в HTML с передачей параметров через POST (клиентское приложение)
@@ -32,9 +24,9 @@ attribution:
 
 ## Постановка задачи
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/add-2-num-js/add-2-num-js.md) <!-- https://harrix.dev/ru/blog/2015/add-2-num-js/ --> показан пример приложения на HTML + JavaScript по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. Серверной части там нет.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2015/blob/main/add-2-num-js/add-2-num-js.md) <!-- https://harrix.dev/ru/articles/2015/add-2-num-js/ --> показан пример приложения на HTML + JavaScript по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. Серверной части там нет.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2015/blob/main/add-2-num-php/add-2-num-php.md) <!-- https://harrix.dev/ru/blog/2015/add-2-num-php/ --> показа пример приложения, где клиентская и серверная часть объединены в одном PHP скрипте.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2015/blob/main/add-2-num-php/add-2-num-php.md) <!-- https://harrix.dev/ru/articles/2015/add-2-num-php/ --> показа пример приложения, где клиентская и серверная часть объединены в одном PHP скрипте.
 
 А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле. То есть у нас клиентская и серверная часть разделены между собой.
 
@@ -44,11 +36,11 @@ attribution:
 
 У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-java-get/ --> приведен пример серверной части на Java.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-java-get/ --> приведен пример серверной части на Java.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-php-get/ --> приведен пример серверной части на PHP.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-php-get/ --> приведен пример серверной части на PHP.
 
-В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-post/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
+В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
 ## Создание болванки
 
@@ -93,10 +85,7 @@ attribution:
 У нас сложение двух чисел будет происходить не на стороне клиента, а на стороне сервера. Поэтому форме нужно указать адрес сервера, куда мы отправим запрос. Обратите внимание на то, что параметр `method` принимает значение `post`:
 
 ```html
-<form
-  action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/"
-  method="post"
-></form>
+<form action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/" method="post"></form>
 ```
 
 Общий документ будет иметь вид:
@@ -112,10 +101,7 @@ attribution:
   </head>
 
   <body>
-    <form
-      action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/"
-      method="post"
-    >
+    <form action="https://harrix.dev/blog/2017/add-2-num-php-post/demo/" method="post">
       <input name="a" type="text" value="2" /><br />
       <input name="b" type="text" value="3" /><br />
       <input type="submit" value="Сложить 2 два числа" />

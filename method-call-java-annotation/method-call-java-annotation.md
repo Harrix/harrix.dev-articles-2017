@@ -6,8 +6,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/method-call-java-annotation/method-call-java-annotation.md
-permalink: https://harrix.dev/ru/blog/2017/method-call-java-annotation/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/method-call-java-annotation/method-call-java-annotation.md
+permalink: https://harrix.dev/ru/articles/2017/method-call-java-annotation/
 lang: ru
 ---
 

@@ -8,20 +8,12 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-2/fragments-android-2.md
-permalink: https://harrix.dev/ru/blog/2017/fragments-android-2/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-2/fragments-android-2.md
+permalink: https://harrix.dev/ru/articles/2017/fragments-android-2/
 lang: ru
 attribution:
-  - {
-      author: Google Inc.,
-      author-site: "https://developer.android.com/license",
-      license: CC
-        BY 2.5,
-      license-url: "https://creativecommons.org/licenses/by/2.5/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg",
-      permalink-date: 2019-06-07,
-      name: Android Studio icon.svg,
-    }
+  - { author: Google Inc., author-site: "https://developer.android.com/license", license: CC
+        BY 2.5, license-url: "https://creativecommons.org/licenses/by/2.5/", permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg", permalink-date: 2019-06-07, name: Android Studio icon.svg }
 ---
 
 # Взаимодействие между фрагментами и активностью в Android Studio. Часть 2. Простые способы
@@ -32,13 +24,13 @@ attribution:
 
 Все статьи цикла «Взаимодействие между фрагментами и активностью в Android Studio»:
 
-- [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->
-- [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-2/fragments-android-2.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-2/ -->
-- [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-3/fragments-android-3.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-3/ -->
-- [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-4/fragments-android-4.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-4/ -->
-- [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-5/fragments-android-5.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-5/ -->
+- [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-1/ -->
+- [Часть 2. Простые способы](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-2/fragments-android-2.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-2/ -->
+- [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-3/fragments-android-3.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-3/ -->
+- [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-4/fragments-android-4.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-4/ -->
+- [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-5/fragments-android-5.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-5/ -->
 
-Предыдущая часть [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
+Предыдущая часть [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-1/ -->.
 
 ## При старте приложения отправляем информацию в фрагмент из активности
 
@@ -416,7 +408,7 @@ public class Fragment1 extends Fragment {
 
 Если в прошлый раз мы нажимали кнопку в активности, то сейчас будем нажимать в фрагменте.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-1/ -->.
 
 **Решение.** Мы из фрагмента можем получить доступ к активности, где располагается данный фрагмент, через `getActivity()`. Поэтому код клика кнопки `buttonFragment1` будет таким:
 
@@ -560,7 +552,7 @@ public class Fragment1 extends Fragment {
 
 **Задача.** При нажатии на кнопку `button` в активности текст из `editTextFragment1` фрагмента должен отобразится в поле `textView` активности.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-1/ -->.
 
 **Решение.** Мы можем в фрагменте определить метод `getData()`, который будет возвращать значение из поля ввода:
 
@@ -730,7 +722,7 @@ public class Fragment1 extends Fragment {
 
 **Задача.** При нажатии на кнопку `buttonFragment1` в фрагменте текст из `editTextFragment1` фрагмента должен отобразится в поле `textView` активности.
 
-В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-1/ -->.
+В коде я откатываюсь к [точке сохранения 1](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-1/fragments-android-1.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-1/ -->.
 
 **Решение.** Мы из фрагмента можем получить доступ к активности, где располагается данный фрагмент, через `getActivity()`. Поэтому код клика кнопки `buttonFragment1` будет таким:
 
@@ -874,4 +866,4 @@ public class Fragment1 extends Fragment {
 
 ---
 
-Следующая часть [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/fragments-android-3/fragments-android-3.md) <!-- https://harrix.dev/ru/blog/2017/fragments-android-3/ -->.
+Следующая часть [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-3/fragments-android-3.md) <!-- https://harrix.dev/ru/articles/2017/fragments-android-3/ -->.

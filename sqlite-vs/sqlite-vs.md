@@ -6,20 +6,12 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/sqlite-vs/sqlite-vs.md
-permalink: https://harrix.dev/ru/blog/2017/sqlite-vs/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/sqlite-vs/sqlite-vs.md
+permalink: https://harrix.dev/ru/articles/2017/sqlite-vs/
 lang: ru
 attribution:
-  - {
-      author: Microsoft Corporation,
-      author-site: "https://www.microsoft.com/",
-      license: Public
-        domain,
-      license-url: "https://en.wikipedia.org/wiki/Public_domain",
-      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg",
-      permalink-date: 2019-06-08,
-      name: Visual Studio 2017 Logo.svg,
-    }
+  - { author: Microsoft Corporation, author-site: "https://www.microsoft.com/", license: Public
+        domain, license-url: "https://en.wikipedia.org/wiki/Public_domain", permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg", permalink-date: 2019-06-08, name: Visual Studio 2017 Logo.svg }
   - {
       author: Mike Toews,
       author-site: "https://commons.wikimedia.org/wiki/User:Mwtoews",
@@ -39,7 +31,7 @@ attribution:
 
 ## Создание базы данных
 
-По [этой](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/db-browser-for-sqlite/db-browser-for-sqlite.md) <!-- https://harrix.dev/ru/blog/2016/db-browser-for-sqlite/ --> статье создайте файл базы данных `test.db` с одной таблицей `students`:
+По [этой](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/db-browser-for-sqlite/db-browser-for-sqlite.md) <!-- https://harrix.dev/ru/articles/2016/db-browser-for-sqlite/ --> статье создайте файл базы данных `test.db` с одной таблицей `students`:
 
 ![Поля таблицы students](img/database_01.png)
 
@@ -64,7 +56,7 @@ INSERT INTO `students` VALUES (3,'Костя',19);
 
 ## Создание болванки приложения
 
-Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Visual Studio 2017](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-vs-2017-clr/add-2-num-vs-2017-clr.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-vs-2017-clr/ -->, [Visual Studio 2015](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/add-2-num-vs-2015-clr/add-2-num-vs-2015-clr.md) <!-- https://harrix.dev/ru/blog/2016/add-2-num-vs-2015-clr/ -->, [Visual Studio 2010](https://github.com/Harrix/harrix.dev-blog-2016/blob/main/add-2-num-vs-2010-clr/add-2-num-vs-2010-clr.md) <!-- https://harrix.dev/ru/blog/2016/add-2-num-vs-2010-clr/ -->:
+Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Visual Studio 2017](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-vs-2017-clr/add-2-num-vs-2017-clr.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-vs-2017-clr/ -->, [Visual Studio 2015](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/add-2-num-vs-2015-clr/add-2-num-vs-2015-clr.md) <!-- https://harrix.dev/ru/articles/2016/add-2-num-vs-2015-clr/ -->, [Visual Studio 2010](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/add-2-num-vs-2010-clr/add-2-num-vs-2010-clr.md) <!-- https://harrix.dev/ru/articles/2016/add-2-num-vs-2010-clr/ -->:
 
 ![Болванка приложения с пустой формой](img/form_01.png)
 
@@ -421,7 +413,7 @@ _Рисунок 24 — Вывод таблицы из БД_
 
 _Рисунок 25 — Компонент DataGridView и еще одна кнопка на форме_
 
-Вывод данных в таблице будем основывать на статье [Вывод таблицы вручную в Visual Studio в CLR приложении](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/data-grid-view-vs/data-grid-view-vs.md) <!-- https://harrix.dev/ru/blog/2017/data-grid-view-vs/ -->.
+Вывод данных в таблице будем основывать на статье [Вывод таблицы вручную в Visual Studio в CLR приложении](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/data-grid-view-vs/data-grid-view-vs.md) <!-- https://harrix.dev/ru/articles/2017/data-grid-view-vs/ -->.
 
 Будем использовать в коде вектора, так что подключим его через заголовочный файл:
 

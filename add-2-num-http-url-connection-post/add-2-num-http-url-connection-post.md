@@ -8,8 +8,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md
-permalink: https://harrix.dev/ru/blog/2017/add-2-num-http-url-connection-post/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md
+permalink: https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection-post/
 lang: ru
 ---
 
@@ -19,25 +19,25 @@ lang: ru
 
 Напишем приложение сложение двух чисел, где сложение двух чисел происходит на стороне сервера.
 
-В статье [Сложение двух чисел в Android Studio с использованием Apache HTTP с передачей параметров через POST (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-apache-http-post/add-2-num-apache-http-post.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-apache-http-post/ --> приведен вариант с использованием [устаревших](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client) классов. В данной статье используются классы, пришедшие на замену.
+В статье [Сложение двух чисел в Android Studio с использованием Apache HTTP с передачей параметров через POST (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http-post/add-2-num-apache-http-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-apache-http-post/ --> приведен вариант с использованием [устаревших](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client) классов. В данной статье используются классы, пришедшие на замену.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-http-url-connection/add-2-num-http-url-connection.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-http-url-connection/ --> показан вариант приложения для отправки GET параметров.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection/add-2-num-http-url-connection.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection/ --> показан вариант приложения для отправки GET параметров.
 
 ## Постановка задачи
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2019/blob/main/add-2-num-android/add-2-num-android.md) <!-- https://harrix.dev/ru/blog/2019/add-2-num-android/ --> показан пример приложения под Android по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2019/blob/main/add-2-num-android/add-2-num-android.md) <!-- https://harrix.dev/ru/articles/2019/add-2-num-android/ --> показан пример приложения под Android по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле.
 
-В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-post/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
+В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
 ## Серверная часть
 
 У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-java-post/add-2-num-java-post.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-java-post/ --> приведен пример серверной части на Java.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-post/add-2-num-java-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-java-post/ --> приведен пример серверной части на Java.
 
-В [статье](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) <!-- https://harrix.dev/ru/blog/2017/add-2-num-php-post/ --> приведен пример серверной части на PHP.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ --> приведен пример серверной части на PHP.
 
-В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-blog-2017/tree/main/add-2-num-php-post/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
+В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
 ## Создание Android проекта
 

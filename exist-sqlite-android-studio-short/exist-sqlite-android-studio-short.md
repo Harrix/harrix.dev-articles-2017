@@ -6,20 +6,12 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/exist-sqlite-android-studio-short/exist-sqlite-android-studio-short.md
-permalink: https://harrix.dev/ru/blog/2017/exist-sqlite-android-studio-short/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/exist-sqlite-android-studio-short/exist-sqlite-android-studio-short.md
+permalink: https://harrix.dev/ru/articles/2017/exist-sqlite-android-studio-short/
 lang: ru
 attribution:
-  - {
-      author: Google Inc.,
-      author-site: "https://developer.android.com/license",
-      license: CC
-        BY 2.5,
-      license-url: "https://creativecommons.org/licenses/by/2.5/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg",
-      permalink-date: 2019-06-07,
-      name: Android Studio icon.svg,
-    }
+  - { author: Google Inc., author-site: "https://developer.android.com/license", license: CC
+        BY 2.5, license-url: "https://creativecommons.org/licenses/by/2.5/", permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg", permalink-date: 2019-06-07, name: Android Studio icon.svg }
   - {
       author: Mike Toews,
       author-site: "https://commons.wikimedia.org/wiki/User:Mwtoews",
@@ -37,7 +29,7 @@ attribution:
 
 В статье представлен класс для использования существующей базы данных SQLite. Данный класс позволяет обновлять базу данных через переменную DB_VERSION.
 
-Подробная статья [тут](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/exist-sqlite-android-studio/exist-sqlite-android-studio.md) <!-- https://harrix.dev/ru/blog/2017/exist-sqlite-android-studio/ -->.
+Подробная статья [тут](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/exist-sqlite-android-studio/exist-sqlite-android-studio.md) <!-- https://harrix.dev/ru/articles/2017/exist-sqlite-android-studio/ -->.
 
 ## Подготовка файла базы данных SQLite
 

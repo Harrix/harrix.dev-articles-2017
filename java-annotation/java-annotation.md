@@ -6,8 +6,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2017/blob/main/java-annotation/java-annotation.md
-permalink: https://harrix.dev/ru/blog/2017/java-annotation/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/java-annotation/java-annotation.md
+permalink: https://harrix.dev/ru/articles/2017/java-annotation/
 lang: ru
 ---
 
@@ -232,4 +232,4 @@ public class Main {
 
 В общем, примеры создания собственных аннотаций и их использования показал. Но вот только скорее всего возникнет вопрос: а зачем оно нужно?
 
-В статье [Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java](https://github.com/Harrix/harrix.dev-blog-2017/blob/main/method-call-java-annotation/method-call-java-annotation.md) <!-- https://harrix.dev/ru/blog/2017/method-call-java-annotation/ --> показан пример использования аннотаций более приближенного к практике.
+В статье [Как вызвать метод класса из другого класса при недостатке информации через аннотации в Java](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/method-call-java-annotation/method-call-java-annotation.md) <!-- https://harrix.dev/ru/articles/2017/method-call-java-annotation/ --> показан пример использования аннотаций более приближенного к практике.
