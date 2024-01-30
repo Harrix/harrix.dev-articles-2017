@@ -253,7 +253,7 @@ Call<Object> performPostCall(@FieldMap HashMap<String, String> postDataParams);
 
 И поменяем путь к скрипту на сервере, который считает сумму наших чисел. Это прописано в аннотации `@POST`.
 
-Выше я говорил, что PHP скрипт я расположил по адресу <https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post-json/demo>. Получается, что сервер находится по адресу `https://harrix.dev`, а скрипт на этом сервере находится по строчке `/blog/2017/add-2-num-php-post-json/demo/`. Вот этот путь и записываем в `@POST`. Адрес сервера не указываем!
+Выше я говорил, что PHP скрипт я расположил по адресу <https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post-json/demo>. Получается, что сервер находится по адресу `https://harrix.dev`, а скрипт на этом сервере находится по строчке `/ru/articles/2017/add-2-num-php-post-json/demo/`. Вот этот путь и записываем в `@POST`. Адрес сервера не указываем!
 
 В итоге я получил вот такой интерфейс:
 
@@ -269,7 +269,7 @@ import retrofit2.http.POST;
 
 public interface Request {
     @FormUrlEncoded
-    @POST("/blog/2017/add-2-num-php-post-json/demo/")
+    @POST("/ru/articles/2017/add-2-num-php-post-json/demo/")
     Call<Object> performPostCall(@FieldMap HashMap<String, String> postDataParams);
 }
 ```

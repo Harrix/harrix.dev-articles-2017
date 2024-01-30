@@ -38,7 +38,7 @@ https://[путь с скрипту]?a=2&b=3
 Пример скрипта на моем сайте:
 
 ```text
-https://harrix.dev/blog/2017/add-2-num-php-get/demo?a=2&b=3
+https://harrix.dev/ru/articles/2017/add-2-num-php-get/demo?a=2&b=3
 ```
 
 Если данные не переданы, то должно вывестись слово `error`.

@@ -251,7 +251,7 @@ String a, b;
 А также определим переменную `server`, которая будет указывать на сервер, к которому мы будем осуществлять запрос. Если вы используйте свой сервер, то поменяйте значение:
 
 ```java
-String server = "https://harrix.dev/blog/2017/add-2-num-php-get/demo/";
+String server = "https://harrix.dev/ru/articles/2017/add-2-num-php-get/demo/";
 ```
 
 В методе `onPreExecute()` считаем данные из полей ввода:
@@ -385,7 +385,7 @@ public class MainActivity extends AppCompatActivity {
 
     class MyAsyncTask extends AsyncTask<String, String, String> {
         String a, b;
-        String server = "https://harrix.dev/blog/2017/add-2-num-php-get/demo/";
+        String server = "https://harrix.dev/ru/articles/2017/add-2-num-php-get/demo/";
 
         @Override
         protected void onPreExecute() {
@@ -623,7 +623,7 @@ public class MainActivity extends AppCompatActivity {
 
     class MyAsyncTask extends AsyncTask<String, String, String> {
         String a, b;
-        String server = "https://harrix.dev/blog/2017/add-2-num-php-get/demo/";
+        String server = "https://harrix.dev/ru/articles/2017/add-2-num-php-get/demo/";
 
         @Override
         protected void onPreExecute() {
