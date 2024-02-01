@@ -16,13 +16,13 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-Рассмотрен пример сервлета на Java, который делает то же самое, что и [PHP скрипт](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ -->: складывает два числа, которые пришли из клиента.
+Рассмотрен пример сервлета на Java, который делает то же самое, что и [PHP скрипт](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ -->: складывает два числа, которые пришли из клиента.
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-java-get/ --> показан сервлет, который работает также, но с параметрами, переданными через GET.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-java-get/ --> показан сервлет, который работает также, но с параметрами, переданными через GET.
 
 ## Приготовления
 
-В статье [Простейшее web-приложение на Java на сервере Tomcat](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/tomcat/tomcat.md) <!-- https://harrix.dev/ru/articles/2017/tomcat/ --> рассмотрен пример простейшего сервлета с инструкцией по установке и поднятии сервера `Tomcat`. Поэтому в этой статье я не буду рассматривать подробно процесс компилирования Java файлов в class файлы, создание папок для нашего приложения. Для этого обратитесь в вышеприведенную статью.
+В статье [Простейшее web-приложение на Java на сервере Tomcat](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/tomcat/tomcat.md)<!-- https://harrix.dev/ru/articles/2017/tomcat/ --> рассмотрен пример простейшего сервлета с инструкцией по установке и поднятии сервера `Tomcat`. Поэтому в этой статье я не буду рассматривать подробно процесс компилирования Java файлов в class файлы, создание папок для нашего приложения. Для этого обратитесь в вышеприведенную статью.
 
 ## Постановка задачи
 
@@ -187,7 +187,7 @@ javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 
 Перезапускаем сервер Tomcat.
 
-Если что-то пошло не так или какой-то шаг непонятен, то читаем [статью](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/tomcat/tomcat.md) <!-- https://harrix.dev/ru/articles/2017/tomcat/ -->.
+Если что-то пошло не так или какой-то шаг непонятен, то читаем [статью](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/tomcat/tomcat.md)<!-- https://harrix.dev/ru/articles/2017/tomcat/ -->.
 
 ## Проверка работы
 
@@ -219,4 +219,4 @@ javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 </html>
 ```
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ --> рассмотрен пример web-приложения на PHP, который делает тоже самое.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ --> рассмотрен пример web-приложения на PHP, который делает тоже самое.

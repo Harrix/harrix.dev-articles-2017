@@ -17,13 +17,13 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-В отличии от статьи [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ --> сервер в качестве ответа формирует JSON файл.
+В отличии от статьи [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ --> сервер в качестве ответа формирует JSON файл.
 
 ## Приготовления
 
-Нам потребуется так или иначе сервер, на котором просчитываются PHP скрипты. Можно установить локальный сервер (например, [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/articles/2018/apache-php-mysql/ --> описано) через установку связки Apache + PHP + MySQL + phpMyAdmin, можно воспользоваться уже готовыми сборками (Denver, Open Server, WampServer и др.). Можно использовать сервер на каком-нибудь виртуальном хостинге и так далее. В общем, вариантов много.
+Нам потребуется так или иначе сервер, на котором просчитываются PHP скрипты. Можно установить локальный сервер (например, [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/apache-php-mysql/apache-php-mysql.md)<!-- https://harrix.dev/ru/articles/2018/apache-php-mysql/ --> описано) через установку связки Apache + PHP + MySQL + phpMyAdmin, можно воспользоваться уже готовыми сборками (Denver, Open Server, WampServer и др.). Можно использовать сервер на каком-нибудь виртуальном хостинге и так далее. В общем, вариантов много.
 
-Далее предполагается, что у вас есть такой сервер, вы умеете запускать в браузере PHP скрипты (если не знаете, то или [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/apache-php-mysql/apache-php-mysql.md) <!-- https://harrix.dev/ru/articles/2018/apache-php-mysql/ --> почитайте или в любом другом месте в учебниках по PHP).
+Далее предполагается, что у вас есть такой сервер, вы умеете запускать в браузере PHP скрипты (если не знаете, то или [тут](https://github.com/Harrix/harrix.dev-articles-2018/blob/main/apache-php-mysql/apache-php-mysql.md)<!-- https://harrix.dev/ru/articles/2018/apache-php-mysql/ --> почитайте или в любом другом месте в учебниках по PHP).
 
 ## Постановка задачи
 
@@ -65,7 +65,7 @@ else {
 ?>
 ```
 
-По сравнению со статьей [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ --> тут строчка `echo $c;` поменялась на следующие строчки:
+По сравнению со статьей [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-php-post/ --> тут строчка `echo $c;` поменялась на следующие строчки:
 
 ```php
 $arr = array('a' => $a, 'b' => $b, 'c' => $c);

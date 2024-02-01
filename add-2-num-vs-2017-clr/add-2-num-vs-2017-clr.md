@@ -22,7 +22,7 @@ attribution:
 
 ## Установка Visual Studio
 
-Об установке программы с нужными пакетами можно прочитать в статье [Установка Visual Studio 2017 Community](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/install-visual-studio-2017/install-visual-studio-2017.md) <!-- https://harrix.dev/ru/articles/2017/install-visual-studio-2017/ -->.
+Об установке программы с нужными пакетами можно прочитать в статье [Установка Visual Studio 2017 Community](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/install-visual-studio-2017/install-visual-studio-2017.md)<!-- https://harrix.dev/ru/articles/2017/install-visual-studio-2017/ -->.
 
 ## Создание проекта
 

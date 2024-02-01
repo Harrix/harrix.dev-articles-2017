@@ -19,13 +19,13 @@ lang: ru
 
 Напишем приложение сложение двух чисел, где сложение двух чисел происходит на стороне сервера.
 
-Внимание! В данной статье используются устаревшие классы по работе с запросами. В статье [Сложение двух чисел в Android Studio с использованием HttpURLConnection с передачей параметров через POST (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection-post/ --> приведен вариант с использованием классов, пришедших на замену.
+Внимание! В данной статье используются устаревшие классы по работе с запросами. В статье [Сложение двух чисел в Android Studio с использованием HttpURLConnection с передачей параметров через POST (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection-post/ --> приведен вариант с использованием классов, пришедших на замену.
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-apache-http/ --> показан вариант приложения для отправки GET параметров.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-apache-http/ --> показан вариант приложения для отправки GET параметров.
 
 ## Постановка задачи
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2019/blob/main/add-2-num-android/add-2-num-android.md) <!-- https://harrix.dev/ru/articles/2019/add-2-num-android/ --> показан пример приложения под Android по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2019/blob/main/add-2-num-android/add-2-num-android.md)<!-- https://harrix.dev/ru/articles/2019/add-2-num-android/ --> показан пример приложения под Android по сложению двух чисел. И там сложение двух чисел происходило в самом приложении, что логично. А в этом приложении мы из полей ввода считаем два числа и отправим их на сервер, который сложит два числа, отправит нам ответ, и мы этот ответ отобразим в текстовом поле.
 
 На сервер поступает HTTP запрос с двумя переменными `a` и `b`. Переменные `a` и `b` передаются через POST параметры.
 
@@ -33,9 +33,9 @@ lang: ru
 
 У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-java-get/ --> приведен пример серверной части на Java.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-java-get/ --> приведен пример серверной части на Java.
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-php-get/ --> приведен пример серверной части на PHP.
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-php-get/ --> приведен пример серверной части на PHP.
 
 В статье буду использовать PHP скрипт, который я расположил по адресу <https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post/demo> (если перейти по ссылке без параметров, то должно выдаваться `error`).
 
@@ -309,7 +309,7 @@ protected String doInBackground(String... params) {
 }
 ```
 
-От [варианта](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md) <!-- https://harrix.dev/ru/articles/2017/add-2-num-apache-http/ --> с GET параметрами программа отличается именно этим методом. Обратите внимание на то, что параметры POST мы передаем через устаревший класс пар значений `NameValuePair`, в место `HttpGet` используем `HttpPost`.
+От [варианта](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md)<!-- https://harrix.dev/ru/articles/2017/add-2-num-apache-http/ --> с GET параметрами программа отличается именно этим методом. Обратите внимание на то, что параметры POST мы передаем через устаревший класс пар значений `NameValuePair`, в место `HttpGet` используем `HttpPost`.
 
 Теперь остается только создать экземпляр данного класса `MyAsyncTask` в слушателе клика кнопки и запустить его:
 
