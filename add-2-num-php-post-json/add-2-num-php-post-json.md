@@ -83,7 +83,7 @@ echo json_encode($arr);
 Можно проверить через данный [HTML файл](demo/check.html):
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />

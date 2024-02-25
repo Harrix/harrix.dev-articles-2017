@@ -93,7 +93,7 @@ $b = (int)$string_b;
 Работу скрипта можно проверить через данный [HTML файл](demo/check.html):
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -103,7 +103,10 @@ $b = (int)$string_b;
   </head>
 
   <body>
-    <form action="https://harrix.dev/ru/articles/2017/add-2-num-php-post/demo/" method="post">
+    <form
+      action="https://harrix.dev/ru/articles/2017/add-2-num-php-post/demo/"
+      method="post"
+    >
       <input name="a" type="text" value="2" /><br />
       <input name="b" type="text" value="3" /><br />
       <input type="submit" value="Сложить 2 два числа" />
