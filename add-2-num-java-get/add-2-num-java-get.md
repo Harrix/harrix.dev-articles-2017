@@ -131,19 +131,19 @@ else {
 
 В командной строке переходим в папку командой:
 
-```console
+```powershell
 cd [полный путь к папке]
 ```
 
 У меня это:
 
-```console
+```powershell
 cd C:\Users\User\Desktop\testapp
 ```
 
 Собираем `TestServlet.class` командой:
 
-```console
+```powershell
 javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 ```
 
