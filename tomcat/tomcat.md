@@ -231,7 +231,7 @@ _Рисунок 26 — Командная строка_
 
 Перейдем в папку, что мы создали для размещения наших файлов. Не забывайте после каждой команды в командной строке для её запуска нажимать `Enter`:
 
-```cmd
+```shell
 cd C:\Users\Harrix\Desktop\testapp
 ```
 
@@ -241,17 +241,17 @@ _Рисунок 27 — Переход в папку проекта_
 
 И запустим сборку. Если у вас в системной переменной `Path` не прописан путь к JDK (описано в начале статьи), то команда не сработает:
 
-```cmd
+```shell
 javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 ```
 
 Если эта команда не сработает, то используйте один из этих вариантов:
 
-```cmd
+```shell
 javac -classpath servlet-api.jar com\example\TestServlet.java
 ```
 
-```cmd
+```shell
 javac -encoding UTF-8 -cp servlet-api.jar com\example\*.java
 ```
 

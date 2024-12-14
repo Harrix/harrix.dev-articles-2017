@@ -131,19 +131,19 @@ else {
 
 В командной строке переходим в папку командой:
 
-```cmd
+```shell
 cd [полный путь к папке]
 ```
 
 У меня это:
 
-```cmd
+```shell
 cd C:\Users\User\Desktop\testapp
 ```
 
 Собираем `TestServlet.class` командой:
 
-```cmd
+```shell
 javac -encoding UTF-8 -cp .;servlet-api.jar com\example\*.java
 ```
 
