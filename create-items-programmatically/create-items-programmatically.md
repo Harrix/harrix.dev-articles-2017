@@ -113,7 +113,9 @@ public class MainActivity extends AppCompatActivity {
 
 Получим вот это:
 
-[Итоговый результат](img/result_01.mp4)
+![Итоговый результат](img/result_01.avif)
+
+_Рисунок 1 — Итоговый результат_
 
 Если строчку `linearLayout.addView(b);` поменять на `linearLayout.addView(b,0);`, то элементы будут добавляться сверху.
 
@@ -224,4 +226,6 @@ public class MainActivity extends AppCompatActivity {
 
 Получим вот это:
 
-[Итоговый результат](img/result_02.mp4)
+![Итоговый результат](img/result_02.avif)
+
+_Рисунок 2 — Итоговый результат_
