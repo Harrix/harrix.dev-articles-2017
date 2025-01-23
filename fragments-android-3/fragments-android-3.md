@@ -12,16 +12,8 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/f
 permalink: https://harrix.dev/ru/articles/2017/fragments-android-3/
 lang: ru
 attribution:
-  - {
-      author: Google Inc.,
-      author-site: "https://developer.android.com/license",
-      license: CC
-        BY 2.5,
-      license-url: "https://creativecommons.org/licenses/by/2.5/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg",
-      permalink-date: 2019-06-07,
-      name: Android Studio icon.svg,
-    }
+  - { author: Google Inc., author-site: "https://developer.android.com/license", license: CC
+        BY 2.5, license-url: "https://creativecommons.org/licenses/by/2.5/", permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg", permalink-date: 2019-06-07, name: Android Studio icon.svg }
 ---
 
 # Взаимодействие между фрагментами и активностью в Android Studio. Часть 3. Через интерфейсы
@@ -160,9 +152,8 @@ _Рисунок 6 — Реализация метода onFragment1DataListener_
 
 _Рисунок 7 — Результат выполнения программы_
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`:
 
@@ -299,7 +290,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 ## Получаем информацию из активности в фрагменте при клике кнопки активности
 
@@ -373,9 +364,8 @@ mListener.onActivityDataListener(S);
 
 _Рисунок 10 — Результат выполнения программы_
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`:
 
@@ -508,7 +498,7 @@ public class Fragment1 extends Fragment implements MainActivity.OnActivityDataLi
 }
 ```
 
----
+</details>
 
 ## Получаем информацию из фрагмента в активности при клике кнопки активности
 
@@ -556,9 +546,8 @@ _Рисунок 13 — Созданные интерфейсы_
 
 Не буду подробно расписывать дальнейшие шаги, а сразу приложу полные коды двух файлов.
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Файл `MainActivity.java`:
 
@@ -706,7 +695,7 @@ public class Fragment1 extends Fragment implements OnActivityDataListener {
 }
 ```
 
----
+</details>
 
 Получившийся результат:
 
@@ -740,9 +729,8 @@ public interface OnActivityDataListener {
 }
 ```
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Файл `MainActivity.java`:
 
@@ -890,7 +878,7 @@ public class Fragment1 extends Fragment implements OnActivityDataListener {
 }
 ```
 
----
+</details>
 
 Получившийся результат:
 

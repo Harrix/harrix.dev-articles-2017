@@ -12,16 +12,8 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/f
 permalink: https://harrix.dev/ru/articles/2017/fragments-android-2/
 lang: ru
 attribution:
-  - {
-      author: Google Inc.,
-      author-site: "https://developer.android.com/license",
-      license: CC
-        BY 2.5,
-      license-url: "https://creativecommons.org/licenses/by/2.5/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg",
-      permalink-date: 2019-06-07,
-      name: Android Studio icon.svg,
-    }
+  - { author: Google Inc., author-site: "https://developer.android.com/license", license: CC
+        BY 2.5, license-url: "https://creativecommons.org/licenses/by/2.5/", permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg", permalink-date: 2019-06-07, name: Android Studio icon.svg }
 ---
 
 # Взаимодействие между фрагментами и активностью в Android Studio. Часть 2. Простые способы
@@ -116,9 +108,8 @@ _Рисунок 6 — Результат выполнения программы
 
 Приведу полные коды файлов.
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 `MainActivity.java`:
 
@@ -241,7 +232,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 ## Получаем информацию из активности в фрагменте при клике кнопки активности
 
@@ -288,9 +279,8 @@ button.setOnClickListener(new View.OnClickListener() {
 
 _Рисунок 8 — Результат выполнения программы_
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`:
 
@@ -414,7 +404,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 ## Получаем информацию из активности в фрагменте при клике кнопки фрагмента
 
@@ -443,9 +433,8 @@ _Рисунок 9 — Результат выполнения программы
 
 Код `MainActivity.java` не меняется.
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`. По сравнению с точкой сохранения тут ничего не поменялось:
 
@@ -560,7 +549,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 ## Получаем информацию из фрагмента в активности при клике кнопки активности
 
@@ -605,9 +594,8 @@ _Рисунок 11 — Метод обработки клика кнопки в 
 
 _Рисунок 12 — Результат выполнения программы_
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Файл `MainActivity.java`:
 
@@ -730,7 +718,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 ## Получаем информацию из фрагмента в активности при клике кнопки фрагмента
 
@@ -761,9 +749,8 @@ _Рисунок 14 — Результат выполнения программ�
 
 Код файла `MainActivity.java` не меняется.
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Файл `MainActivity.java`:
 
@@ -878,6 +865,6 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 Следующая часть [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-3/fragments-android-3.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-3/).

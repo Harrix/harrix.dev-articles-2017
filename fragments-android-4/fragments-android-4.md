@@ -12,16 +12,8 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/f
 permalink: https://harrix.dev/ru/articles/2017/fragments-android-4/
 lang: ru
 attribution:
-  - {
-      author: Google Inc.,
-      author-site: "https://developer.android.com/license",
-      license: CC
-        BY 2.5,
-      license-url: "https://creativecommons.org/licenses/by/2.5/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg",
-      permalink-date: 2019-06-07,
-      name: Android Studio icon.svg,
-    }
+  - { author: Google Inc., author-site: "https://developer.android.com/license", license: CC
+        BY 2.5, license-url: "https://creativecommons.org/licenses/by/2.5/", permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg", permalink-date: 2019-06-07, name: Android Studio icon.svg }
 ---
 
 # Взаимодействие между фрагментами и активностью в Android Studio. Часть 4. Через намерения
@@ -133,9 +125,8 @@ broadcastReceiver = new BroadcastReceiver() {
 
 _Рисунок 2 — Код активности_
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`:
 
@@ -279,7 +270,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 Получившийся результат:
 
@@ -297,9 +288,8 @@ _Рисунок 3 — Результат выполнения программы
 
 Сразу приведу коды файлов.
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`:
 
@@ -443,7 +433,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 Получившийся результат:
 
@@ -463,9 +453,8 @@ _Рисунок 4 — Результат выполнения программы
 
 Сразу привожу коды файлов.
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`:
 
@@ -627,7 +616,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 Получившийся результат:
 
@@ -643,9 +632,8 @@ _Рисунок 5 — Результат выполнения программы
 
 Сразу привожу полные коды файлов.
 
----
-
-**Полные коды файлов** <!-- !details -->
+<details>
+<summary>Полные коды файлов</summary>
 
 Полный код `MainActivity.java`:
 
@@ -807,7 +795,7 @@ public class Fragment1 extends Fragment {
 }
 ```
 
----
+</details>
 
 Получившийся результат:
 
