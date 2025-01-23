@@ -284,7 +284,7 @@ button.setOnClickListener(new View.OnClickListener() {
 });
 ```
 
-![Результат выполнения программы](img/result_03.mp4)
+![Результат выполнения программы](img/result_03.avif)
 
 _Рисунок 8 — Результат выполнения программы_
 
@@ -437,7 +437,7 @@ buttonFragment1.setOnClickListener(new View.OnClickListener() {
 });
 ```
 
-![Результат выполнения программы](img/result_04.mp4)
+![Результат выполнения программы](img/result_04.avif)
 
 _Рисунок 9 — Результат выполнения программы_
 
@@ -601,7 +601,7 @@ button.setOnClickListener(new View.OnClickListener() {
 
 _Рисунок 11 — Метод обработки клика кнопки в активности_
 
-![Результат выполнения программы](img/result_05.mp4)
+![Результат выполнения программы](img/result_05.avif)
 
 _Рисунок 12 — Результат выполнения программы_
 
@@ -755,7 +755,7 @@ buttonFragment1.setOnClickListener(new View.OnClickListener() {
 
 _Рисунок 13 — Метод обработки клика кнопки фрагмента_
 
-![Результат выполнения программы](img/result_06.mp4)
+![Результат выполнения программы](img/result_06.avif)
 
 _Рисунок 14 — Результат выполнения программы_
 
