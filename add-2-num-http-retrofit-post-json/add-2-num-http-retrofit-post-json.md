@@ -1,7 +1,15 @@
 ---
 date: 2017-05-08
-categories: [it, web]
-tags: [Клиент-сервер, Java, Android, Android Studio, Сложение двух чисел, JSON]
+categories:
+  - it
+  - web
+tags:
+  - Клиент-сервер
+  - Java
+  - Android
+  - Android Studio
+  - Сложение двух чисел
+  - JSON
 update: 2020-05-20
 related-id: client-server
 author: Anton Sergienko

@@ -1,7 +1,12 @@
 ---
 date: 2017-05-04
-categories: [it, web]
-tags: [Клиент-сервер, Java, Сложение двух чисел]
+categories:
+  - it
+  - web
+tags:
+  - Клиент-сервер
+  - Java
+  - Сложение двух чисел
 related-id: client-server
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com

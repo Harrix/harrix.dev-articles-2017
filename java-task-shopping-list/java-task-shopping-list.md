@@ -1,7 +1,11 @@
 ---
 date: 2017-04-10
-categories: [it, programming]
-tags: [Java, Task]
+categories:
+  - it
+  - programming
+tags:
+  - Java
+  - Task
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

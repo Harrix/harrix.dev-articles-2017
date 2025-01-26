@@ -1,7 +1,11 @@
 ---
 date: 2017-05-06
-categories: [it, hardware]
-tags: [MSI, Ноутбук]
+categories:
+  - it
+  - hardware
+tags:
+  - MSI
+  - Ноутбук
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

@@ -1,7 +1,11 @@
 ---
 date: 2017-06-11
-categories: [it, programming]
-tags: [C++, Visual Studio]
+categories:
+  - it
+  - programming
+tags:
+  - C++
+  - Visual Studio
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
@@ -10,16 +14,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/d
 permalink: https://harrix.dev/ru/articles/2017/data-grid-view-vs/
 lang: ru
 attribution:
-  - {
-      author: Microsoft Corporation,
-      author-site: "https://www.microsoft.com/",
-      license: Public
-        domain,
-      license-url: "https://en.wikipedia.org/wiki/Public_domain",
-      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg",
-      permalink-date: 2019-06-08,
-      name: Visual Studio 2017 Logo.svg,
-    }
+  - author: Microsoft Corporation
+    author-site: https://www.microsoft.com/
+    license: Public domain
+    license-url: https://en.wikipedia.org/wiki/Public_domain
+    permalink: https://commons.wikimedia.org/wiki/File:Visual_Studio_2017_Logo.svg
+    permalink-date: 2019-06-08
+    name: Visual Studio 2017 Logo.svg
 ---
 
 # Вывод таблицы вручную в Visual Studio в CLR приложении

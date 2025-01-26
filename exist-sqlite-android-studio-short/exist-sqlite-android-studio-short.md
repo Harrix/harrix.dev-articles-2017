@@ -1,7 +1,14 @@
 ---
 date: 2017-04-13
-categories: [it, programming]
-tags: [Android, Android Studio, Java, SQLite, SQL]
+categories:
+  - it
+  - programming
+tags:
+  - Android
+  - Android Studio
+  - Java
+  - SQLite
+  - SQL
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
@@ -10,25 +17,20 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/e
 permalink: https://harrix.dev/ru/articles/2017/exist-sqlite-android-studio-short/
 lang: ru
 attribution:
-  - {
-      author: Google Inc.,
-      author-site: "https://developer.android.com/license",
-      license: CC
-        BY 2.5,
-      license-url: "https://creativecommons.org/licenses/by/2.5/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg",
-      permalink-date: 2019-06-07,
-      name: Android Studio icon.svg,
-    }
-  - {
-      author: Mike Toews,
-      author-site: "https://commons.wikimedia.org/wiki/User:Mwtoews",
-      license: CC BY-SA 3.0,
-      license-url: "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
-      permalink: "https://commons.wikimedia.org/wiki/File:Sqlite-square-icon.svg",
-      permalink-date: 2019-01-26,
-      name: Sqlite-square-icon.svg,
-    }
+  - author: Google Inc.
+    author-site: https://developer.android.com/license
+    license: CC BY 2.5
+    license-url: https://creativecommons.org/licenses/by/2.5/
+    permalink: https://commons.wikimedia.org/wiki/File:Android_Studio_icon.svg
+    permalink-date: 2019-06-07
+    name: Android Studio icon.svg
+  - author: Mike Toews
+    author-site: https://commons.wikimedia.org/wiki/User:Mwtoews
+    license: CC BY-SA 3.0
+    license-url: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+    permalink: https://commons.wikimedia.org/wiki/File:Sqlite-square-icon.svg
+    permalink-date: 2019-01-26
+    name: Sqlite-square-icon.svg
 ---
 
 # Подключение существующей БД SQLite в Android Studio (кратко)

@@ -1,7 +1,10 @@
 ---
 date: 2017-04-25
-categories: [it, programming]
-tags: [Visual Studio]
+categories:
+  - it
+  - programming
+tags:
+  - Visual Studio
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

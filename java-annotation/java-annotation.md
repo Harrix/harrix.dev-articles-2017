@@ -1,7 +1,10 @@
 ---
 date: 2017-05-08
-categories: [it, programming]
-tags: [Java]
+categories:
+  - it
+  - programming
+tags:
+  - Java
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

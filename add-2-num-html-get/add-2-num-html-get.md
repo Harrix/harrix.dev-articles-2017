@@ -1,7 +1,12 @@
 ---
 date: 2017-05-05
-categories: [it, web]
-tags: [Клиент-сервер, HTML, Сложение двух чисел]
+categories:
+  - it
+  - web
+tags:
+  - Клиент-сервер
+  - HTML
+  - Сложение двух чисел
 related-id: client-server
 demo: demo
 author: Anton Sergienko
@@ -12,16 +17,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/a
 permalink: https://harrix.dev/ru/articles/2017/add-2-num-html-get/
 lang: ru
 attribution:
-  - {
-      author: W3C,
-      author-site: "https://www.w3.org/html/logo/index.html",
-      license: CC
-        BY 3.0,
-      license-url: "https://creativecommons.org/licenses/by/3.0/",
-      permalink: "https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg",
-      permalink-date: 2019-02-24,
-      name: HTML5 logo and wordmark.svg,
-    }
+  - author: W3C
+    author-site: https://www.w3.org/html/logo/index.html
+    license: CC BY 3.0
+    license-url: https://creativecommons.org/licenses/by/3.0/
+    permalink: https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg
+    permalink-date: 2019-02-24
+    name: HTML5 logo and wordmark.svg
 ---
 
 # Сложение двух чисел в HTML (клиентское приложение)

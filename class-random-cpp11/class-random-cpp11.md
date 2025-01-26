@@ -1,7 +1,10 @@
 ---
 date: 2017-05-11
-categories: [it, programming]
-tags: [C++]
+categories:
+  - it
+  - programming
+tags:
+  - C++
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

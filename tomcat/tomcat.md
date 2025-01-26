@@ -1,7 +1,12 @@
 ---
 date: 2017-04-27
-categories: [it, web]
-tags: [Java, Установка, Клиент-сервер]
+categories:
+  - it
+  - web
+tags:
+  - Java
+  - Установка
+  - Клиент-сервер
 related-id: client-server
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
@@ -11,15 +16,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2017/blob/main/t
 permalink: https://harrix.dev/ru/articles/2017/tomcat/
 lang: ru
 attribution:
-  - {
-      author: The Apache Software Foundation,
-      author-site: "https://www.apache.org/",
-      license: Apache License 2.0,
-      license-url: "https://www.apache.org/licenses/LICENSE-2.0",
-      permalink: "https://commons.wikimedia.org/wiki/File:Tomcat-logo.svg",
-      permalink-date: 2020-02-02,
-      name: Tomcat-logo.svg,
-    }
+  - author: The Apache Software Foundation
+    author-site: https://www.apache.org/
+    license: Apache License 2.0
+    license-url: https://www.apache.org/licenses/LICENSE-2.0
+    permalink: https://commons.wikimedia.org/wiki/File:Tomcat-logo.svg
+    permalink-date: 2020-02-02
+    name: Tomcat-logo.svg
 ---
 
 # Простейшее web-приложение на Java на сервере Tomcat

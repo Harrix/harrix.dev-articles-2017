@@ -1,7 +1,13 @@
 ---
 date: 2017-05-09
-categories: [it, program]
-tags: [JSON, IntelliJ IDEA, JetBrains, Java]
+categories:
+  - it
+  - program
+tags:
+  - JSON
+  - IntelliJ IDEA
+  - JetBrains
+  - Java
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0

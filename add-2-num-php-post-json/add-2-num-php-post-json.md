@@ -1,7 +1,13 @@
 ---
 date: 2017-05-07
-categories: [it, web]
-tags: [Клиент-сервер, PHP, Сложение двух чисел, JSON]
+categories:
+  - it
+  - web
+tags:
+  - Клиент-сервер
+  - PHP
+  - Сложение двух чисел
+  - JSON
 related-id: client-server
 demo: demo
 author: Anton Sergienko
