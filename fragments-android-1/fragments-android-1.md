@@ -32,7 +32,8 @@ attribution:
 
 Передавать сообщения между элементами на одной активности легко. А как быть, если элементы находятся в разных фрагментах. В статье рассмотрены некоторые сценарии.
 
-## Содержание
+<details>
+<summary>📖 Содержание</summary>
 
 - [Создание проекта](#создание-проекта)
 - [Предварительная работа с главной активностью](#предварительная-работа-с-главной-активностью)
@@ -47,6 +48,8 @@ attribution:
 - [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-3/fragments-android-3.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-3/)
 - [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-4/fragments-android-4.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-4/)
 - [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-5/fragments-android-5.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-5/)
+
+</details>
 
 ## Создание проекта
 
