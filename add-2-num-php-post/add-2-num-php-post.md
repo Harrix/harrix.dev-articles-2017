@@ -34,9 +34,9 @@ lang: ru
 - [PHP скрипт](#php-скрипт)
 - [Проверка работы](#проверка-работы)
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) | [🡥](https://harrix.dev/ru/articles/2017/add-2-num-php-get/) рассматривается вариант с GET запросом.
-
 </details>
+
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-get/add-2-num-php-get.md) | [🡥](https://harrix.dev/ru/articles/2017/add-2-num-php-get/) рассматривается вариант с GET запросом.
 
 ## Приготовления
 

@@ -43,6 +43,8 @@ attribution:
 - [Отображаем первый фрагмент](#отображаем-первый-фрагмент)
 - [Точка сохранения 1](#точка-сохранения-1)
 
+</details>
+
 Все статьи цикла «Взаимодействие между фрагментами и активностью в Android Studio»:
 
 - [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-1/fragments-android-1.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-1/)
@@ -50,8 +52,6 @@ attribution:
 - [Часть 3. Через интерфейсы](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-3/fragments-android-3.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-3/)
 - [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-4/fragments-android-4.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-4/)
 - [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-5/fragments-android-5.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-5/)
-
-</details>
 
 ## Создание проекта
 

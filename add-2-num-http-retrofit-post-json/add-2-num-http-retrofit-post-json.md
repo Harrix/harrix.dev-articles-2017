@@ -43,9 +43,9 @@ lang: ru
 - [Java код](#java-код)
 - [Ошибка Invoke-customs](#ошибка-invoke-customs)
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md) | [🡥](https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection-post/) приведен вариант, где сервер выдает одно число и всё. Чаще всего же сервера в виде текстовых файлов отдают либо HTML, либо XML, либо JSON, то есть структурированную информацию. В таких случаях часто используют библиотеку [Retrofit](https://square.github.io/retrofit/).
-
 </details>
+
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md) | [🡥](https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection-post/) приведен вариант, где сервер выдает одно число и всё. Чаще всего же сервера в виде текстовых файлов отдают либо HTML, либо XML, либо JSON, то есть структурированную информацию. В таких случаях часто используют библиотеку [Retrofit](https://square.github.io/retrofit/).
 
 ## Постановка задачи
 

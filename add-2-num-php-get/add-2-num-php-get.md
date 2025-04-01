@@ -35,9 +35,9 @@ lang: ru
 - [Проверка работы](#проверка-работы)
 - [Дополнительные ссылки](#дополнительные-ссылки)
 
-В [статье](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post) рассматривается вариант с POST запросом.
-
 </details>
+
+В [статье](https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post) рассматривается вариант с POST запросом.
 
 ## Приготовления
 

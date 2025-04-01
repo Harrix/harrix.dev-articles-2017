@@ -48,6 +48,8 @@ attribution:
 - [Передача в активность сообщения при закрытии фрагмента](#передача-в-активность-сообщения-при-закрытии-фрагмента)
 - [Передача в фрагмент сообщения при закрытии другого фрагмента](#передача-в-фрагмент-сообщения-при-закрытии-другого-фрагмента)
 
+</details>
+
 Все статьи цикла «Взаимодействие между фрагментами и активностью в Android Studio»:
 
 - [Часть 1. Подготовка](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-1/fragments-android-1.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-1/)
@@ -57,8 +59,6 @@ attribution:
 - [Часть 5. Несколько фрагментов](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-5/fragments-android-5.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-5/)
 
 Предыдущая часть [Часть 4. Через намерения](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/fragments-android-4/fragments-android-4.md) | [🡥](https://harrix.dev/ru/articles/2017/fragments-android-4/).
-
-</details>
 
 ## Введение
 

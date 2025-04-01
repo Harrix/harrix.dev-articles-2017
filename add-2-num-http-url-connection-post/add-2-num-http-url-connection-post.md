@@ -38,11 +38,11 @@ lang: ru
 - [Добавляем разрешения](#добавляем-разрешения)
 - [Java код](#java-код)
 
+</details>
+
 В статье [Сложение двух чисел в Android Studio с использованием Apache HTTP с передачей параметров через POST (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http-post/add-2-num-apache-http-post.md) | [🡥](https://harrix.dev/ru/articles/2017/add-2-num-apache-http-post/) приведен вариант с использованием [устаревших](https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-apache-http-client) классов. В данной статье используются классы, пришедшие на замену.
 
 В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection/add-2-num-http-url-connection.md) | [🡥](https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection/) показан вариант приложения для отправки GET параметров.
-
-</details>
 
 ## Постановка задачи
 
