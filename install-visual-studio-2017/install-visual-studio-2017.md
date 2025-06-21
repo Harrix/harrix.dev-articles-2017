@@ -31,7 +31,7 @@ attribution:
 
 В статье приведена инструкция по установке бесплатной версии Visual Studio 2017 Community на Windows 10 для программирования на C++. По сравнению с версией 2015 процесс установки сильно изменился.
 
-Так как уже вышла [Visual Studio 2019](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-visual-studio-2019/install-visual-studio-2019.md) | [🡥](https://harrix.dev/ru/articles/2021/install-visual-studio-2019/), то Visual Studio 2017 нужно искать на странице со старыми релизами.
+Так как уже вышла [Visual Studio 2019](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-visual-studio-2019/install-visual-studio-2019.md) | [↗️](https://harrix.dev/ru/articles/2021/install-visual-studio-2019/), то Visual Studio 2017 нужно искать на странице со старыми релизами.
 
 Переходим на адрес загрузки предыдущих версий `Visual Studio`: <https://visualstudio.microsoft.com/ru/vs/older-downloads/>.
 
@@ -123,7 +123,7 @@ _Рисунок 14 — Открытая Visual Studio_
 
 А в этой статье говорится как сложить два числа в оконном приложении:
 
-[Сложение двух чисел в Visual Studio 2017 на C++ (CLR приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-vs-2017-clr/add-2-num-vs-2017-clr.md) | [🡥](https://harrix.dev/ru/articles/2017/add-2-num-vs-2017-clr/)
+[Сложение двух чисел в Visual Studio 2017 на C++ (CLR приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-vs-2017-clr/add-2-num-vs-2017-clr.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-vs-2017-clr/)
 
 Если вы хотите разрабатывать универсальные UWP приложения, то не забудьте включить режим `Режим разработчика` в параметрах Windows 10:
 
