@@ -26,7 +26,7 @@ lang: ru
 В отличии от статьи [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post/) сервер в качестве ответа формирует JSON файл.
 
 <details>
-<summary>📖 Содержание</summary>
+<summary>📖 Содержание ⬇️</summary>
 
 ## Содержание
 
