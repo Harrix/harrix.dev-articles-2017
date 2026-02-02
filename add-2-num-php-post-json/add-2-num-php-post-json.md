@@ -94,7 +94,7 @@ echo json_encode($arr);
 
 ## Проверка работы
 
-Закидываем данный скрипт на сервер. Я закинул на <https://github.com/Harrix/harrix.dev-articles-2017/tree/main/add-2-num-php-post-json/demo>
+Закидываем данный скрипт на сервер.
 
 Через адресную строку в браузере, разумеется, POST параметры не отправить. Для этого используются либо формы в HTML страницах, либо через запросы в клиентских приложениях.
 
@@ -111,7 +111,7 @@ echo json_encode($arr);
   </head>
 
   <body>
-    <form action="http://demo.harrix.org/demo0013/" method="post">
+    <form action="https://example.com/demo/" method="post">
       <input name="a" type="text" value="2" /><br />
       <input name="b" type="text" value="3" /><br />
       <input type="submit" value="Сложить 2 два числа" />
@@ -119,6 +119,8 @@ echo json_encode($arr);
   </body>
 </html>
 ```
+
+Ссылку <https://example.com/demo/> заменяем на ссылку своего сервера.
 
 При отправке чисел `2` и `3` получим в результате вот в виде полноценного JSON файл, который мы уже можем парсить, если нужно:
 
