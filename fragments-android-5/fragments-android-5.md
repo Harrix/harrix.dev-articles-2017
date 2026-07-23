@@ -2010,7 +2010,7 @@ public class Fragment1 extends Fragment implements OnActivityDataListener {
 }
 ```
 
-Файл `Fragment2.java`. **Внимание**: метод `onDestroyView()` заменился на метод `onDestroy()`:
+Файл `Fragment2.java`. **Внимание:** метод `onDestroyView()` заменился на метод `onDestroy()`:
 
 ```java
 package com.example.fragments;

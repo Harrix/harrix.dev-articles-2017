@@ -56,7 +56,7 @@ attribution:
 
 ## Серверная часть
 
-У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
+У вас должен быть сервер, доступный из Интернета, к которому можно обращаться.
 
 В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-java-get/add-2-num-java-get.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-java-get/) приведен пример серверной части на Java.
 

@@ -61,7 +61,7 @@ lang: ru
 
 ## Серверная часть
 
-У вас должен быть сервер, доступный из интернета, к которому можно обращаться.
+У вас должен быть сервер, доступный из Интернета, к которому можно обращаться.
 
 В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post-json/add-2-num-php-post-json.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post-json/) приведен пример серверной части на PHP.
 
@@ -121,13 +121,13 @@ _Рисунок 1 — XML разметка приложения_
 
 ## Добавляем разрешения
 
-Приложение у нас будет обращаться в интернет. Поэтому нужно ей дать на это разрешение в `AndroidManifest.xml`:
+Приложение у нас будет обращаться в Интернет. Поэтому нужно ей дать на это разрешение в `AndroidManifest.xml`:
 
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-![Разрешение на доступ в интернет](img/android-manifest.png)
+![Разрешение на доступ в Интернет](img/android-manifest.png)
 
 _Рисунок 2 — Разрешение на доступ в интернет_
 
