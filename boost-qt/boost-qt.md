@@ -443,7 +443,7 @@ _Рисунок 41 — Кнопка запуска приложения_
 
 ![Файл `mainwindow.cpp`](img/mainwindow.png)
 
-_Рисунок 42 — Файл mainwindow.cpp_
+_Рисунок 42 — Файл `mainwindow.cpp`_
 
 ## Проверка № 1
 
