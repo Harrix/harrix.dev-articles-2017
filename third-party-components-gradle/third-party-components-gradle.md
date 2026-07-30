@@ -87,9 +87,9 @@ _Рисунок 5 — Настройка проекта_
 
 Откройте файл `build.gradle (Module: app)`:
 
-![Файл файл build.gradle](img/install_02.png)
+![Файл build.gradle](img/install_02.png)
 
-_Рисунок 6 — Файл файл build.gradle_
+_Рисунок 6 — Файл build.gradle_
 
 В файле найдите раздел `dependencies`. И просто напишите там ту строчку, которая была в разделе установки Installation библиотеки:
 
