@@ -557,7 +557,7 @@ public interface OnActivityDataListener {
 }
 ```
 
-![Созданные интерфейсы](img/new-interface_02.png)
+![Созданные интерфейсы](img/new-interface_03.png)
 
 _Рисунок 13 — Созданные интерфейсы_
 
