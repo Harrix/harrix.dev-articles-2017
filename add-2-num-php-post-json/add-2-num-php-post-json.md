@@ -23,7 +23,7 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-В отличии от статьи [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post/) сервер в качестве ответа формирует JSON файл.
+В отличии от статьи [Сложение двух чисел на PHP с передачей параметров через POST (серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post/) сервер в качестве ответа формирует JSON файл.
 
 <details>
 <summary>📖 Содержание ⬇️</summary>
@@ -83,7 +83,7 @@ else {
 ?>
 ```
 
-По сравнению со статьей [Сложение двух чисел в HTML с передачей параметров через POST](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post/) тут строчка `echo $c;` поменялась на следующие строчки:
+По сравнению со статьей [Сложение двух чисел на PHP с передачей параметров через POST (серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post/) тут строчка `echo $c;` поменялась на следующие строчки:
 
 ```php
 $arr = array('a' => $a, 'b' => $b, 'c' => $c);

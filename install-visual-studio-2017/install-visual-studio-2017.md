@@ -31,7 +31,7 @@ attribution:
 
 В статье приведена инструкция по установке бесплатной версии Visual Studio 2017 Community на Windows 10 для программирования на C++. По сравнению с версией 2015 процесс установки сильно изменился.
 
-Так как уже вышла [Visual Studio 2019](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-visual-studio-2019/install-visual-studio-2019.md) | [↗️](https://harrix.dev/ru/articles/2021/install-visual-studio-2019/), то Visual Studio 2017 нужно искать на странице со старыми релизами.
+Так как уже вышла [Установка Visual Studio 2019 Community](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-visual-studio-2019/install-visual-studio-2019.md) | [↗️](https://harrix.dev/ru/articles/2021/install-visual-studio-2019/), то Visual Studio 2017 нужно искать на странице со старыми релизами.
 
 Переходим на адрес загрузки предыдущих версий `Visual Studio`: <https://visualstudio.microsoft.com/ru/vs/older-downloads/>.
 

@@ -82,7 +82,7 @@ INSERT INTO `students` VALUES (3,'Костя',19);
 
 ## Создание болванки приложения
 
-Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Visual Studio 2017](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-vs-2017-clr/add-2-num-vs-2017-clr.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-vs-2017-clr/), [Visual Studio 2015](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/add-2-num-vs-2015-clr/add-2-num-vs-2015-clr.md) | [↗️](https://harrix.dev/ru/articles/2016/add-2-num-vs-2015-clr/), [Visual Studio 2010](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/add-2-num-vs-2010-clr/add-2-num-vs-2010-clr.md) | [↗️](https://harrix.dev/ru/articles/2016/add-2-num-vs-2010-clr/):
+Подготовьте приложение с готовой формой. Прочитать об этом можно тут: [Сложение двух чисел в Visual Studio 2017 на C++ (CLR приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-vs-2017-clr/add-2-num-vs-2017-clr.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-vs-2017-clr/), [Сложение двух чисел в Visual Studio 2015 на C++ (CLR приложение)](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/add-2-num-vs-2015-clr/add-2-num-vs-2015-clr.md) | [↗️](https://harrix.dev/ru/articles/2016/add-2-num-vs-2015-clr/), [Сложение двух чисел в Visual Studio 2010 на C++ (CLR приложение)](https://github.com/Harrix/harrix.dev-articles-2016/blob/main/add-2-num-vs-2010-clr/add-2-num-vs-2010-clr.md) | [↗️](https://harrix.dev/ru/articles/2016/add-2-num-vs-2010-clr/):
 
 ![Болванка приложения с пустой формой](img/form_01.png)
 

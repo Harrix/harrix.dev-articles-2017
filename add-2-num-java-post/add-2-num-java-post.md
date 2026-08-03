@@ -21,7 +21,7 @@ lang: ru
 
 ![Featured image](featured-image.svg)
 
-Рассмотрен пример сервлета на Java, который делает то же самое, что и [PHP скрипт](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post/): складывает два числа, которые пришли из клиента.
+Рассмотрен пример сервлета на Java, который делает то же самое, что и [Сложение двух чисел на PHP с передачей параметров через POST (серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-php-post/add-2-num-php-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-php-post/): складывает два числа, которые пришли из клиента.
 
 <details>
 <summary>📖 Содержание ⬇️</summary>

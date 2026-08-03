@@ -41,7 +41,7 @@ lang: ru
 
 </details>
 
-Внимание! В данной статье используются устаревшие классы по работе с запросами. В статье [Сложение двух чисел в Android Studio с использованием HttpURLConnection с передачей параметров через POST (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection-post/) приведен вариант с использованием классов, пришедших на замену.
+Внимание! В данной статье используются устаревшие классы по работе с запросами. В статье [Сложение двух чисел в Android Studio с использованием HttpURLConnection и передачей параметров через POST (клиент-серверное приложение)](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-http-url-connection-post/add-2-num-http-url-connection-post.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-http-url-connection-post/) приведен вариант с использованием классов, пришедших на замену.
 
 В [статье](https://github.com/Harrix/harrix.dev-articles-2017/blob/main/add-2-num-apache-http/add-2-num-apache-http.md) | [↗️](https://harrix.dev/ru/articles/2017/add-2-num-apache-http/) показан вариант приложения для отправки GET параметров.
 
